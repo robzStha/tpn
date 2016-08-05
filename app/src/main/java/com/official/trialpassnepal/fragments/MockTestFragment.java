@@ -13,11 +13,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.official.trialpassnepal.R;
+import com.official.trialpassnepal.adapters.FinalAnswersAdapter;
 import com.official.trialpassnepal.db.DbQuestionAnswer;
 import com.official.trialpassnepal.objects.AnswerObject;
 import com.official.trialpassnepal.objects.QuestionObject;
@@ -102,6 +104,7 @@ public class MockTestFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_mock_test, container, false);
         DbQuestionAnswer dbQuestionAnswer = new DbQuestionAnswer(getContext());
 
+
         ArrayList<AnswerObject> alAnswerObj = dbQuestionAnswer.getQuestionOptions(mQuestionObj.getQid());
 
         TextViewTypeFaced tvAns1, tvAns2, tvAns3, tvAns4, tvQuestion;
@@ -131,6 +134,18 @@ public class MockTestFragment extends Fragment {
         tvAns4 = ((TextViewTypeFaced) view.findViewById(R.id.tv_ans4));
         tvAns4.setText(alAnswerObj.get(3).getAnswer());
         tvAns4.setTag(alAnswerObj.get(3));
+
+        if(alAnswerObj.get(0).isCorrectAnswer()){
+            activity.answers.add(alAnswerObj.get(0).getAnswer());
+        }else if(alAnswerObj.get(1).isCorrectAnswer()){
+            activity.answers.add(alAnswerObj.get(1).getAnswer());
+        }else if(alAnswerObj.get(2).isCorrectAnswer()){
+            activity.answers.add(alAnswerObj.get(2).getAnswer());
+        }else if(alAnswerObj.get(3).isCorrectAnswer()){
+            activity.answers.add(alAnswerObj.get(3).getAnswer());
+        }
+
+
         tvAns1.setOnClickListener(tvClickListener);
         tvAns2.setOnClickListener(tvClickListener);
         tvAns3.setOnClickListener(tvClickListener);
@@ -150,6 +165,7 @@ public class MockTestFragment extends Fragment {
             btnNext.setEnabled(true);
         }
         btnNext.setOnClickListener(btnClickListener);
+        btnPrev.setOnClickListener(btnClickListener);
 
         return view;
     }
@@ -161,6 +177,9 @@ public class MockTestFragment extends Fragment {
             switch (v.getId()) {
                 case R.id.bnt_next_qst:
                     btnNextClick();
+                    break;
+                case R.id.bnt_prev_qst:
+                    btnPrevClick();
                     break;
             }
         }
@@ -214,6 +233,10 @@ public class MockTestFragment extends Fragment {
         mpopup.setAnimationStyle(android.R.style.Animation_Dialog);
         mpopup.showAtLocation(view, Gravity.CENTER, 0, 0); // Displaying popup
 
+
+        ListView listView = (ListView) view.findViewById(R.id.lv_answers);
+        FinalAnswersAdapter answersAdapter = new FinalAnswersAdapter(activity.alQuestionObjectTemp, activity, activity.answers);
+        listView.setAdapter(answersAdapter);
 
         Integer key;
         Iterator myVeryOwnIterator = activity.hmAnswers.keySet().iterator();

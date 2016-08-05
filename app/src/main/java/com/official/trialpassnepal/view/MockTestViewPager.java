@@ -23,8 +23,10 @@ import java.util.HashMap;
 public class MockTestViewPager extends BaseActivity implements MockTestFragment.OnFragmentInteractionListener {
 
     private static ViewPager viewPager;
-    static ArrayList<QuestionObject> alQuestionObjectTemp;
+    public static ArrayList<QuestionObject> alQuestionObjectTemp;
     private MyPagerAdapter adapterViewPager;
+
+    public ArrayList<String> answers = new ArrayList<>();
     // to store the answer and to check if is correct or not.
     public HashMap<Integer, HashMap<Integer, Boolean>> hmAnswers = new HashMap<>();
 
@@ -51,6 +53,7 @@ public class MockTestViewPager extends BaseActivity implements MockTestFragment.
                 return true;
             }
         });
+        viewPager.setOffscreenPageLimit(20);
 
     }
 

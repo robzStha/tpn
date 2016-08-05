@@ -14,6 +14,8 @@ import java.util.ArrayList;
 
 public class MockTest extends BaseActivity implements MockTestFragment.OnFragmentInteractionListener{
 
+    public ArrayList<QuestionObject> alQuestionObjectTemp;
+
     @Override
     protected int getLayoutId() {
         return R.layout.activity_mock_test;
@@ -27,7 +29,7 @@ public class MockTest extends BaseActivity implements MockTestFragment.OnFragmen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ArrayList<QuestionObject> alQuestionObjectTemp = new DbQuestionAnswer(getApplicationContext()).getQuestions("0");// gets obj quesiton
+        alQuestionObjectTemp = new DbQuestionAnswer(getApplicationContext()).getQuestions("0");// gets obj quesiton
         Fragment newFragment = new MockTestFragment().newInstance(alQuestionObjectTemp.get(0), 1, 0);
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.add(R.id.container, newFragment).commit();
