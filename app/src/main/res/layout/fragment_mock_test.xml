@@ -80,6 +80,19 @@
 
     </LinearLayout>
     <com.official.trialpassnepal.view.ButtonTypeFaced
+        android:id="@+id/bnt_prev_qst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prev"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_btn_yellow"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"/>
+
+    <com.official.trialpassnepal.view.ButtonTypeFaced
         android:id="@+id/bnt_next_qst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

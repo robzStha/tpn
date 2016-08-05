@@ -164,6 +164,10 @@
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\test_list_item.xml"
     },
     {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\final_answer_list_item_view.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\final_answer_list_item_view.xml"
+    },
+    {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mock_test_view_pager.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_mock_test_view_pager.xml"
     },
@@ -218,6 +222,10 @@
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web_view.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_web_view.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\final_answer_list.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\final_answer_list.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_list_item.xml",

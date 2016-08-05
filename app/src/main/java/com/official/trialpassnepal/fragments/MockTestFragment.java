@@ -7,10 +7,14 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.PopupWindow;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.official.trialpassnepal.R;
@@ -26,6 +30,7 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.zip.Inflater;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -51,8 +56,10 @@ public class MockTestFragment extends Fragment {
     private ImageView ivSign;
 
     private OnFragmentInteractionListener mListener;
-    private ButtonTypeFaced btnNext;
+    private ButtonTypeFaced btnNext, btnPrev;
     private ViewPager viewPager;
+    private PopupWindow mpopup;
+    private ViewGroup.LayoutParams params;
 
     public MockTestFragment() {
         // Required empty public constructor
@@ -129,6 +136,14 @@ public class MockTestFragment extends Fragment {
         tvAns3.setOnClickListener(tvClickListener);
         tvAns4.setOnClickListener(tvClickListener);
         btnNext = (ButtonTypeFaced) view.findViewById(R.id.bnt_next_qst);
+        btnPrev = (ButtonTypeFaced) view.findViewById(R.id.bnt_prev_qst);
+
+        if(mPosition == 0){
+            btnPrev.setVisibility(View.GONE);
+        }else{
+            btnPrev.setVisibility(View.VISIBLE);
+        }
+
         if (mPosition == -1) {
             btnNext.setEnabled(false);
         } else {
@@ -150,6 +165,12 @@ public class MockTestFragment extends Fragment {
             }
         }
     };
+
+    private void btnPrevClick(){
+        if(viewPager.getCurrentItem()!=0){
+            viewPager.setCurrentItem((mPosition - 1), true);
+        }
+    }
 
     private void btnNextClick() {
         if (selectedAnswerId != 0) {
@@ -182,6 +203,17 @@ public class MockTestFragment extends Fragment {
     private void getCorrectAnswers() {
         int correctAnsCount = 0;
         int count = activity.hmAnswers.size();
+        params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT);
+//        layout.setOrientation(LinearLayout.VERTICAL);
+        LayoutInflater inflater = LayoutInflater.from(activity);
+        View view = inflater.inflate(R.layout.final_answer_list, null, false);
+
+        mpopup = new PopupWindow(view, RelativeLayout.LayoutParams.MATCH_PARENT,
+                RelativeLayout.LayoutParams.WRAP_CONTENT, true); // Creation of popup
+        mpopup.setAnimationStyle(android.R.style.Animation_Dialog);
+        mpopup.showAtLocation(view, Gravity.CENTER, 0, 0); // Displaying popup
+
 
         Integer key;
         Iterator myVeryOwnIterator = activity.hmAnswers.keySet().iterator();
@@ -211,7 +243,7 @@ public class MockTestFragment extends Fragment {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
-                activity.finish();
+//                activity.finish();
             }
         });
         builder.create().show();

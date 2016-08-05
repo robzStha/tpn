@@ -13,6 +13,11 @@
         <!--<item>CATEGORIES</item>-->
         <!--<item>REGISTER</item>-->
     </string-array>
+    <string-array name="useful_tips">
+        <item>सवारी साधन </item>
+        <item>सवारी नम्बर प्लेट</item>
+        <item>ट्राफिक बत्तिका संकेत</item>
+    </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
@@ -462,6 +467,7 @@ https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend
     <string name="open_location_settings">Location Settings</string>
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
+    <string name="remainder">रिमाइन्डर </string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>

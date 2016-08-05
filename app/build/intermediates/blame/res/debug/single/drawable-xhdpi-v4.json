@@ -400,6 +400,10 @@
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.4.0\\res\\drawable-xhdpi\\cast_ic_notification_0.png"
     },
     {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_done_black_24dp.png",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\drawable-xhdpi\\ic_done_black_24dp.png"
+    },
+    {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_pressed.9.png"
     },
