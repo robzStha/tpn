@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.official.trialpassnepal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" /> <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Optional permission for App measurement to run. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <application
+        name="com.official.trialpassnepal.MyApplication"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.official.trialpassnepal.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.official.trialpassnepal.LandingActivity"
+            android:label="@string/title_activity_landing"
+            android:screenOrientation="portrait" />
+        <!-- <activity -->
+        <!-- android:name=".BaseActivity" -->
+        <!-- android:label="@string/title_activity_base" > -->
+        <!-- </activity> -->
+        <activity
+            android:name="com.official.trialpassnepal.Signs"
+            android:label="@string/title_activity_signs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.official.trialpassnepal.TestListActivity"
+            android:label="@string/title_activity_test_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.official.trialpassnepal.SendSmsActivity"
+            android:label="@string/title_activity_send_sms"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="com.official.trialpassnepal.service.MySMSReceiver" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.official.trialpassnepal.SMSResultActivity"
+            android:label="@string/title_activity_smsresult"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.official.trialpassnepal.NearByDrivingCenters"
+            android:label="@string/title_activity_near_by_driving_centers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.official.trialpassnepal.Registration"
+            android:label="@string/title_activity_registration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.official.trialpassnepal.UsefulTipsActivity"
+            android:label="@string/title_activity_useful" />
+        <activity
+            android:name="com.official.trialpassnepal.TipsDetailActivity"
+            android:label="@string/title_activity_tips_detail" />
+        <activity android:name="com.official.trialpassnepal.QuestionNAnswer" />
+        <activity android:name="com.official.trialpassnepal.MockTest" />
+        <activity android:name="com.official.trialpassnepal.view.MockTestViewPager" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.official.trialpassnepal.CourseMaterial" />
+        <activity android:name="com.official.trialpassnepal.SubQstnAns" />
+        <activity android:name="com.official.trialpassnepal.ObjQstnAns" />
+        <activity android:name="com.official.trialpassnepal.WebViewActivity" />
+        <activity android:name="com.official.trialpassnepal.PdfActivity_" />
+        <activity android:name="com.official.trialpassnepal.PdfActivity" />
+
+        <service
+            android:name="com.official.trialpassnepal.service.UpdatePullService"
+            android:exported="false" />
+
+        <provider
+            android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"
+            android:authorities="com.official.trialpassnepal.google_measurement_service"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+    </application>
+
+</manifest>

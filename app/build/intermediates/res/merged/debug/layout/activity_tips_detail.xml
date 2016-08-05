@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.official.trialpassnepal.TipsDetailActivity">
+
+    <include
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:layout_width="match_parent"
+        android:id="@+id/inc_title"
+        layout="@layout/custom_action_bar"/>
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/ytb_player"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/inc_title"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content">
+
+        </com.google.android.youtube.player.YouTubePlayerView>
+
+</RelativeLayout>

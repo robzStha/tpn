@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.official.trialpassnepal.Registration">
+
+    <ImageButton
+        android:id="@+id/iv_userProfilePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/transparent"
+        android:src="@drawable/ic_profile_pic"/>
+
+    <com.official.trialpassnepal.view.TextViewTypeFaced
+        android:id="@+id/tv_nameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_userProfilePic"
+        android:layout_marginTop="@dimen/space3"
+        android:text="NAME" />
+
+    <com.official.trialpassnepal.view.EditTextTypeFaced
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_nameTitle"
+        android:layout_marginTop="@dimen/space5"
+        android:background="@drawable/bg_border_white"
+        android:padding="@dimen/space5" />
+
+    <com.official.trialpassnepal.view.TextViewTypeFaced
+        android:id="@+id/tv_addressTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_name"
+        android:layout_marginTop="@dimen/space3"
+        android:text="ADDRESS" />
+
+    <com.official.trialpassnepal.view.EditTextTypeFaced
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_addressTitle"
+        android:layout_marginTop="@dimen/space5"
+        android:background="@drawable/bg_border_white"
+        android:id="@+id/et_address"
+        android:padding="@dimen/space5" />
+
+    <com.official.trialpassnepal.view.TextViewTypeFaced
+        android:id="@+id/tv_contactTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_address"
+        android:layout_marginTop="@dimen/space3"
+        android:text="CONTACT NUMBER" />
+
+    <com.official.trialpassnepal.view.EditTextTypeFaced
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_contactTitle"
+        android:layout_marginTop="@dimen/space5"
+        android:background="@drawable/bg_border_white"
+        android:id="@+id/et_contactNumber"
+        android:padding="@dimen/space5" />
+
+    <com.official.trialpassnepal.view.ButtonTypeFaced
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_contactNumber"
+        android:layout_marginTop="@dimen/space1"
+        android:background="@drawable/bg_btn_yellow"
+        android:paddingLeft="@dimen/space3"
+        android:paddingRight="@dimen/space3"
+        android:text="REGISTER" />
+
+
+</RelativeLayout>

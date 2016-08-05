@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrialPassNepal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_landing">LandingActivity</string>
+
+    <string-array name="nav_menu">
+        <item>पाठ्यक्रम सामाग्री </item>
+        <item>तयारी परीक्षा </item>
+        <item>ड्राइभिङ सेन्टर</item>
+        <item>सवारी कर चेक </item>
+        <item>रिमाइन्डर</item>
+        <item>महत्वपूर्ण जानकारी</item>
+        <item>वेबसाईट </item>
+        <item>ट्रायल भिडियो </item>
+        <item>लग आउट </item>
+        <!--<item>CATEGORIES</item>-->
+        <!--<item>REGISTER</item>-->
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="tag_login">By Clicking Login You Agree\nTo The <B>Terms And Conditions</B></string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_signs">चिन्हहरु</string>
+    <string name="title_activity_mock_test">तयारी परीक्षा </string>
+    <string name="title_activity_course_material">पाठ्यक्रम सामाग्री </string>
+    <string name="title_activity_test_list">Test List</string>
+    <string name="title_activity_send_sms">SendSmsActivity</string>
+    <string name="title_tax">Enter Vehicle Number (eg BA37PA3999)</string>
+    <string name="btn_checkTax">Check Tax</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_smsresult">SMSResultActivity</string>
+    <string name="btn_back">BACK</string>
+    <string name="title_activity_near_by_driving_centers">ड्राइभिङ सेन्टर</string>
+    <string name="gps_network_not_enabled">Your Location Service is not enabled</string>
+    <string name="open_location_settings">Location Settings</string>
+    <string name="msg_loading">Please wait...</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_useful">महत्वपूर्ण जानकारी</string>
+    <string name="title_activity_tips_detail">महत्वपूर्ण जानकारी</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">1732516050298394</string>
+    <string name="fb_login_protocol_scheme">fb1732516050298394</string>
+    <string name="chinhaharu">चिन्हहरु</string>
+    <string name="bisyagat_prashnaharu">बिषयगत प्रश्नहरु </string>
+    <string name="bastugat_prashnaharu">बस्तुगत प्रश्नहरु </string>
+
+</resources>

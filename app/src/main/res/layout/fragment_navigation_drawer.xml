@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/blue_dark"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fl_header"
+        >
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/header" />
+
+        <ImageView
+            android:id="@+id/iv_userProfilePic"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/profile"
+            android:layout_gravity="center"/>
+
+        <com.official.trialpassnepal.view.TextViewTypeFaced
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="112dp"
+            attrs:fontStyle="bold"
+            android:text="User Full Name"
+            android:id="@+id/tv_username"
+            android:textColor="@android:color/white"
+            />
+
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/list_slidermenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fl_header"
+        android:layout_marginBottom="@dimen/space5"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="1dp">
+
+    </ListView>
+
+</RelativeLayout>
+

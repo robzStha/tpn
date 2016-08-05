@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.official.trialpassnepal.TestListActivity">
+
+    <ListView
+        android:id="@+id/lv_tests"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_pagination"
+        android:divider="@color/divider_light"
+        android:dividerHeight="1dp"></ListView>
+
+    <LinearLayout
+        android:id="@+id/ll_pagination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/grey_light"
+        android:weightSum="8">
+
+        <com.official.trialpassnepal.view.ButtonTypeFaced
+            android:id="@+id/btn_prev"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/transparent"
+            android:drawableLeft="@drawable/ic_prev_page"
+            android:drawablePadding="@dimen/space5"
+            android:gravity="left|center"
+            android:padding="@dimen/space5"
+            android:textAllCaps="false" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="6"
+            android:gravity="center">
+
+            <com.official.trialpassnepal.view.TextViewTypeFaced
+                android:id="@+id/tv_currentPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="@dimen/space5"
+                android:paddingRight="@dimen/space5"
+                android:background="@android:color/white"
+                android:text="2" />
+
+            <com.official.trialpassnepal.view.TextViewTypeFaced
+                android:id="@+id/tv_totalPages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/space5"
+                android:text=" / 10" />
+
+        </LinearLayout>
+
+        <com.official.trialpassnepal.view.ButtonTypeFaced
+            android:id="@+id/btn_next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/transparent"
+            android:drawablePadding="@dimen/space5"
+            android:drawableRight="@drawable/ic_next_page"
+            android:gravity="right|center"
+            android:padding="@dimen/space5"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.official.trialpassnepal.SendSmsActivity"
+    android:background="@android:color/white">
+
+    <TextView android:text="@string/title_tax" android:layout_width="wrap_content"
+        android:paddingTop="@dimen/space3"
+        android:paddingBottom="@dimen/space3"
+        android:paddingLeft="@dimen/space3"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_title"/>
+    
+    <View
+        android:id="@+id/view_separator"
+        android:layout_below="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:background="@color/grey_light"
+        android:layout_height="1dp"/>
+
+
+    <com.official.trialpassnepal.view.EditTextTypeFaced
+        android:id="@+id/et_vehicleNo"
+        android:layout_below="@+id/view_separator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space3"
+        android:layout_marginBottom="@dimen/space3"
+        android:layout_marginLeft="@dimen/space3"
+        android:layout_marginRight="@dimen/space3"
+        android:paddingLeft="@dimen/space6"
+        android:paddingRight="@dimen/space6"
+        android:paddingTop="@dimen/space5"
+        android:paddingBottom="@dimen/space5"
+        android:background="@drawable/bg_border_white"
+        android:inputType="textCapCharacters"
+        android:hint="BA37PA3999"/>
+
+    <com.official.trialpassnepal.view.ButtonTypeFaced
+        android:id="@+id/btn_checkTax"
+        android:layout_below="@+id/et_vehicleNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        attrs:fontStyle="bold"
+        android:background="@drawable/bg_btn_yellow"
+        android:text="@string/btn_checkTax"/>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/ll_custom_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_title_bar">
+
+        <ImageButton
+            android:id="@+id/ibtn_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:padding="@dimen/space5" />
+
+        <com.official.trialpassnepal.view.TextViewTypeFaced
+            android:id="@+id/tv_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/space5"
+            android:paddingRight="@dimen/space5"
+            android:text="TITLE"
+            android:layout_toRightOf="@+id/ibtn_action"
+            android:layout_toLeftOf="@+id/ibtn_right"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/txt_h4" />
+
+
+        <ImageButton
+            android:id="@+id/ibtn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/space5"
+            android:background="@android:color/transparent"
+            android:src="@drawable/bg_fb_login"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</RelativeLayout>

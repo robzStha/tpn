@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/space3"
+    android:paddingRight="@dimen/space3"
+    android:paddingTop="@dimen/space5"
+    android:paddingBottom="@dimen/space5"
+    android:background="@color/blue_light"
+    >
+
+    <com.official.trialpassnepal.view.TextViewTypeFaced
+        android:id="@+id/drawer_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/space1"
+        android:paddingTop="@dimen/space6"
+        android:paddingBottom="@dimen/space6"
+        android:textSize="@dimen/txt_h5"
+        android:text="text"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"/>
+
+    <FrameLayout
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/space4"
+        android:id="@+id/fl_popupCircle"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/header"
+            />
+
+        <com.official.trialpassnepal.view.TextViewTypeFaced
+            android:id="@+id/tv_value"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="10"
+            android:textColor="@color/dark"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+
+
+
+</LinearLayout>
