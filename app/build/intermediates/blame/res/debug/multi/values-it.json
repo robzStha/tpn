@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/values-it/values-it.xml",
+        "outputFile": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\values-it\\values-it.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 209
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 317
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 440
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 540
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 649
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 733
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 842
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 967
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1048
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1154
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1262
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1360
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1464
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1569
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1676
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1798
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1898
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 2072
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -354,7 +354,7 @@
                     "endOffset": 2208
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -375,7 +375,7 @@
                     "endOffset": 2350
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -395,7 +395,7 @@
                     "endOffset": 2445
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -414,7 +414,7 @@
                     "endOffset": 2513
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -433,7 +433,7 @@
                     "endOffset": 2585
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -452,7 +452,7 @@
                     "endOffset": 2649
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -471,7 +471,7 @@
                     "endOffset": 2722
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -490,7 +490,7 @@
                     "endOffset": 2794
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -509,7 +509,7 @@
                     "endOffset": 2884
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -528,7 +528,7 @@
                     "endOffset": 2955
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -547,7 +547,7 @@
                     "endOffset": 3026
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -566,7 +566,7 @@
                     "endOffset": 3120
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -585,7 +585,7 @@
                     "endOffset": 3228
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -604,7 +604,7 @@
                     "endOffset": 3292
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -623,7 +623,7 @@
                     "endOffset": 3361
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -642,7 +642,7 @@
                     "endOffset": 3516
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -661,7 +661,7 @@
                     "endOffset": 3787
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -680,7 +680,7 @@
                     "endOffset": 3915
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -699,7 +699,7 @@
                     "endOffset": 4098
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -718,7 +718,7 @@
                     "endOffset": 4225
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -737,7 +737,7 @@
                     "endOffset": 4356
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -756,7 +756,7 @@
                     "endOffset": 4569
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -775,7 +775,7 @@
                     "endOffset": 4781
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -794,7 +794,7 @@
                     "endOffset": 4911
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -813,7 +813,7 @@
                     "endOffset": 5100
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -832,7 +832,7 @@
                     "endOffset": 5224
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -851,7 +851,7 @@
                     "endOffset": 5403
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -870,7 +870,7 @@
                     "endOffset": 5524
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -889,7 +889,7 @@
                     "endOffset": 5658
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -908,7 +908,7 @@
                     "endOffset": 5840
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -927,7 +927,7 @@
                     "endOffset": 5975
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -946,7 +946,7 @@
                     "endOffset": 6156
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -965,7 +965,7 @@
                     "endOffset": 6284
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -984,7 +984,7 @@
                     "endOffset": 6545
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/res/values-it/common_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.4.0\\res\\values-it\\common_strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1003,7 +1003,7 @@
                     "endOffset": 6805
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1022,7 +1022,7 @@
                     "endOffset": 6929
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1041,7 +1041,7 @@
                     "endOffset": 7038
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1060,7 +1060,7 @@
                     "endOffset": 7223
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1079,7 +1079,7 @@
                     "endOffset": 7352
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1098,7 +1098,7 @@
                     "endOffset": 7567
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1117,7 +1117,7 @@
                     "endOffset": 7706
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1136,7 +1136,7 @@
                     "endOffset": 7917
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1155,7 +1155,7 @@
                     "endOffset": 8013
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -1174,7 +1174,7 @@
                     "endOffset": 8104
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -1193,7 +1193,7 @@
                     "endOffset": 8211
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-it/base_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-it\\base_strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -1212,7 +1212,7 @@
                     "endOffset": 8272
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1231,7 +1231,7 @@
                     "endOffset": 8382
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1250,7 +1250,7 @@
                     "endOffset": 8497
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1269,7 +1269,7 @@
                     "endOffset": 8608
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1288,7 +1288,7 @@
                     "endOffset": 8714
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1307,7 +1307,7 @@
                     "endOffset": 8849
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1326,7 +1326,7 @@
                     "endOffset": 8945
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1345,7 +1345,7 @@
                     "endOffset": 9044
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1364,7 +1364,7 @@
                     "endOffset": 9170
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1383,7 +1383,7 @@
                     "endOffset": 9283
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1402,7 +1402,7 @@
                     "endOffset": 9370
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1421,7 +1421,7 @@
                     "endOffset": 9468
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1440,7 +1440,7 @@
                     "endOffset": 9575
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/values-it/location_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\values-it\\location_strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1459,7 +1459,7 @@
                     "endOffset": 9670
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/values-it/location_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\values-it\\location_strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1478,7 +1478,7 @@
                     "endOffset": 9771
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1497,7 +1497,7 @@
                     "endOffset": 9880
                 },
                 "from": {
-                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/res/values-it/wallet_strings.xml",
+                    "file": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\8.4.0\\res\\values-it\\wallet_strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,

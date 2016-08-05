@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
+    abi="x86_64,x86"
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="1469958263987071000"
-    token="2608216864261312080" >
+    timestamp="213600627918136"
+    token="-1227615263626713604" >
 
     <task
         name="javac"
-        duration="13769" />
+        duration="4306" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1053" />
+        duration="4064" />
     <task
         name="verifier"
-        duration="523" />
+        duration="1838" />
 
     <artifact
-        location="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/outputs/apk/app-debug.apk"
+        location="E:\Project\AndroidStudio\tpn\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="1469958263987071000" >
+    <build timestamp="213600627918136" >
         <artifact
-            location="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/outputs/apk/app-debug.apk"
+            location="E:\Project\AndroidStudio\tpn\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 

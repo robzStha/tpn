@@ -148,7 +148,6 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
                     Log.v("facebook - profile", profile2.getFirstName());
                     mainProfile = profile2;
                     mProfileTracker.stopTracking();
-
                     Picasso.with(getApplicationContext()).load(mainProfile.getProfilePictureUri(imgSize, imgSize)).transform(new CircleTransform()).into(ivUserProfilePic);
                     tvUserName.setText(mainProfile.getName());
                 }

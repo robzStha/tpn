@@ -114,7 +114,6 @@
         <activity android:name=".ObjQstnAns" />
         <activity android:name=".WebViewActivity" />
         <activity android:name=".PdfActivity_" />
-        <activity android:name=".PdfActivity" />
 
         <service
             android:name=".service.UpdatePullService"

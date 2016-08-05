@@ -1,34 +1,21 @@
 package com.official.trialpassnepal.utils;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
-import android.content.res.AssetManager;
-import android.net.Uri;
-import android.util.Log;
 import android.widget.Toast;
 
-import com.github.barteksc.pdfviewer.PDFView;
-import com.official.trialpassnepal.BaseActivity;
 import com.official.trialpassnepal.CourseMaterial;
 import com.official.trialpassnepal.LandingActivity;
-import com.official.trialpassnepal.ObjQstnAns;
-import com.official.trialpassnepal.PdfActivity;
-import com.official.trialpassnepal.Signs;
 import com.official.trialpassnepal.NearByDrivingCenters;
+import com.official.trialpassnepal.ObjQstnAns;
 import com.official.trialpassnepal.Registration;
 import com.official.trialpassnepal.SendSmsActivity;
+import com.official.trialpassnepal.Signs;
 import com.official.trialpassnepal.SubQstnAns;
 import com.official.trialpassnepal.TestListActivity;
 import com.official.trialpassnepal.UsefulTipsActivity;
 import com.official.trialpassnepal.WebViewActivity;
-import com.official.trialpassnepal.objects.SubQstnAnsObject;
 import com.official.trialpassnepal.view.MockTestViewPager;
-
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 
 /**
  * Created by Rabin

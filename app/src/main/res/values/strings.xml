@@ -50,5 +50,12 @@
     <string name="chinhaharu">चिन्हहरु</string>
     <string name="bisyagat_prashnaharu">बिषयगत प्रश्नहरु </string>
     <string name="bastugat_prashnaharu">बस्तुगत प्रश्नहरु </string>
+    <string name="remainder">रिमाइन्डर </string>
+
+    <string-array name="useful_tips">
+        <item>सवारी साधन </item>
+        <item>सवारी नम्बर प्लेट</item>
+        <item>ट्राफिक बत्तिका संकेत</item>
+    </string-array>
 
 </resources>
