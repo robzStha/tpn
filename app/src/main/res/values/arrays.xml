@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="rem_types">
+        <!--<item></item>-->
+        <item>Servicing</item>
+        <item>Mobil Change</item>
+        <item>License Expiry</item>
+        <item>Blue Book Expiry</item>
+        <item>Insurance Expiry</item>
+    </string-array>
+</resources>

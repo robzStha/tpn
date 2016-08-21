@@ -1,2 +1,2 @@
-CHANGED,E:\Project\AndroidStudio\tpn\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\official\trialpassnepal\view\MockTestViewPager$override.class
-CHANGED,E:\Project\AndroidStudio\tpn\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/official/trialpassnepal/ReminderActivity$override.class
+CHANGED,/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

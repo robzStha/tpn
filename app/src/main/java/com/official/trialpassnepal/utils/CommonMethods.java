@@ -1,5 +1,6 @@
 package com.official.trialpassnepal.utils;
 
+import android.app.ActivityManager;
 import android.content.Context;
 import android.content.res.Resources;
 import android.text.format.DateFormat;
@@ -9,6 +10,7 @@ import com.facebook.Profile;
 
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by SlowhandJr. on 7/15/16.

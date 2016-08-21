@@ -11,28 +11,30 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
+import android.widget.TextView;
 
 import com.official.trialpassnepal.R;
 import com.official.trialpassnepal.adapters.FinalAnswersAdapter;
 import com.official.trialpassnepal.db.DbQuestionAnswer;
 import com.official.trialpassnepal.objects.AnswerObject;
+import com.official.trialpassnepal.objects.QuestionAnswer;
 import com.official.trialpassnepal.objects.QuestionObject;
 import com.official.trialpassnepal.utils.CommonDef;
+import com.official.trialpassnepal.utils.Opener;
 import com.official.trialpassnepal.view.ButtonTypeFaced;
 import com.official.trialpassnepal.view.MockTestViewPager;
 import com.official.trialpassnepal.view.TextViewTypeFaced;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.zip.Inflater;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -61,7 +63,7 @@ public class MockTestFragment extends Fragment {
     private ButtonTypeFaced btnNext, btnPrev;
     private ViewPager viewPager;
     private PopupWindow mpopup;
-    private ViewGroup.LayoutParams params;
+    private String correctAnswer;
 
     public MockTestFragment() {
         // Required empty public constructor
@@ -135,14 +137,14 @@ public class MockTestFragment extends Fragment {
         tvAns4.setText(alAnswerObj.get(3).getAnswer());
         tvAns4.setTag(alAnswerObj.get(3));
 
-        if(alAnswerObj.get(0).isCorrectAnswer()){
-            activity.answers.add(alAnswerObj.get(0).getAnswer());
-        }else if(alAnswerObj.get(1).isCorrectAnswer()){
-            activity.answers.add(alAnswerObj.get(1).getAnswer());
-        }else if(alAnswerObj.get(2).isCorrectAnswer()){
-            activity.answers.add(alAnswerObj.get(2).getAnswer());
-        }else if(alAnswerObj.get(3).isCorrectAnswer()){
-            activity.answers.add(alAnswerObj.get(3).getAnswer());
+        if (alAnswerObj.get(0).isCorrectAnswer()) {
+            correctAnswer = alAnswerObj.get(0).getAnswer();
+        } else if (alAnswerObj.get(1).isCorrectAnswer()) {
+            correctAnswer = alAnswerObj.get(1).getAnswer();
+        } else if (alAnswerObj.get(2).isCorrectAnswer()) {
+            correctAnswer = alAnswerObj.get(2).getAnswer();
+        } else if (alAnswerObj.get(3).isCorrectAnswer()) {
+            correctAnswer = alAnswerObj.get(3).getAnswer();
         }
 
 
@@ -153,9 +155,9 @@ public class MockTestFragment extends Fragment {
         btnNext = (ButtonTypeFaced) view.findViewById(R.id.bnt_next_qst);
         btnPrev = (ButtonTypeFaced) view.findViewById(R.id.bnt_prev_qst);
 
-        if(mPosition == 0){
+        if (mPosition == 0) {
             btnPrev.setVisibility(View.GONE);
-        }else{
+        } else {
             btnPrev.setVisibility(View.VISIBLE);
         }
 
@@ -185,8 +187,8 @@ public class MockTestFragment extends Fragment {
         }
     };
 
-    private void btnPrevClick(){
-        if(viewPager.getCurrentItem()!=0){
+    private void btnPrevClick() {
+        if (viewPager.getCurrentItem() != 0) {
             viewPager.setCurrentItem((mPosition - 1), true);
         }
     }
@@ -197,8 +199,25 @@ public class MockTestFragment extends Fragment {
             HashMap<Integer, Boolean> hmSelectedAns = new HashMap<>();
             hmSelectedAns.put(selectedAnswerId, isCorrect);
             activity.hmAnswers.put(mQuestionObj.getQid(), hmSelectedAns);
+            QuestionAnswer questionAnswer = new QuestionAnswer();
+            questionAnswer.setQuestion(mQuestionObj.getQuestion());
+            questionAnswer.setAnswer(correctAnswer);
+            questionAnswer.setCorrect(isCorrect);
+            if(activity.questionAnswers.size()>0) {
+                Iterator iterator = activity.questionAnswers.iterator();
+                int count=0;
+                while(iterator.hasNext()){
+                    if (!activity.questionAnswers.get(count).getQuestion().equals(questionAnswer.getQuestion())) {
+                        activity.questionAnswers.add(questionAnswer);
+                        break;
+                    }
+                    count++;
+                }
+            }else{
+                activity.questionAnswers.add(questionAnswer);
+            }
             System.out.print("Hashmap for: " + activity.hmAnswers.toString());
-            if ((mSize-1) == mPosition) {
+            if ((mSize - 1) == mPosition) {
                 getCorrectAnswers();
             }
 
@@ -222,8 +241,8 @@ public class MockTestFragment extends Fragment {
     private void getCorrectAnswers() {
         int correctAnsCount = 0;
         int count = activity.hmAnswers.size();
-        params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT);
+//        params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
+//                ViewGroup.LayoutParams.WRAP_CONTENT);
 //        layout.setOrientation(LinearLayout.VERTICAL);
         LayoutInflater inflater = LayoutInflater.from(activity);
         View view = inflater.inflate(R.layout.final_answer_list, null, false);
@@ -235,41 +254,55 @@ public class MockTestFragment extends Fragment {
 
 
         ListView listView = (ListView) view.findViewById(R.id.lv_answers);
-        FinalAnswersAdapter answersAdapter = new FinalAnswersAdapter(activity.alQuestionObjectTemp, activity, activity.answers);
+        ArrayList<QuestionObject> questionObjects = activity.alQuestionObjectTemp;
+        Collections.reverse(questionObjects);
+        FinalAnswersAdapter answersAdapter = new FinalAnswersAdapter(activity);
         listView.setAdapter(answersAdapter);
 
         Integer key;
         Iterator myVeryOwnIterator = activity.hmAnswers.keySet().iterator();
-        while(myVeryOwnIterator.hasNext()) {
-            key=(Integer)myVeryOwnIterator.next();
+        while (myVeryOwnIterator.hasNext()) {
+            key = (Integer) myVeryOwnIterator.next();
             HashMap<Integer, Boolean> answer = activity.hmAnswers.get(key);
             Iterator answerIterator = answer.keySet().iterator();
             Integer ansKey;
-            while(answerIterator.hasNext()){
+            while (answerIterator.hasNext()) {
                 ansKey = (Integer) answerIterator.next();
                 Boolean value = answer.get(ansKey);
-                if(value){
+                if (value) {
                     correctAnsCount++;
                 }
             }
         }
-        String msg;
-        if(count == correctAnsCount){
-            msg = "Congratulations you have given all answers correctly.";
-        }else
-            msg = "You have given "+ correctAnsCount+ " answers correct out of "+ count+ " questions";
-
-        AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-        builder.setMessage(msg);
-        builder.setTitle(getString(R.string.app_name));
-        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+        TextView tvTitle = (TextView) view.findViewById(R.id.tv_title);
+        tvTitle.setText("Your score : "+correctAnsCount+"/ 20");
+        Button btnOk = (Button) view.findViewById(R.id.btn_ok);
+        btnOk.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialog, int which) {
-                dialog.dismiss();
-//                activity.finish();
+            public void onClick(View v) {
+                mpopup.dismiss();
+                Opener opener = new Opener(activity);
+                opener.QuestionNAnswer();
+                activity.finish();
             }
         });
-        builder.create().show();
+//        if (count == correctAnsCount) {
+//            msg = "Congratulations you have given all answers correctly.";
+//        } else
+//            msg = "You have given " + correctAnsCount + " answers correct out of " + count + " questions";
+
+        activity.questionAnswers = new ArrayList<>();
+//        AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+//        builder.setMessage(msg);
+//        builder.setTitle(getString(R.string.app_name));
+//        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                dialog.dismiss();
+////                activity.finish();
+//            }
+//        });
+//        builder.create().show();
     }
 
     private View.OnClickListener tvClickListener = new View.OnClickListener() {

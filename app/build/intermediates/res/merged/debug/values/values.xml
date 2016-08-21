@@ -7,11 +7,20 @@
         <item>सवारी कर चेक </item>
         <item>रिमाइन्डर</item>
         <item>महत्वपूर्ण जानकारी</item>
+        <item>नमुना प्रश्नहरु</item>
         <item>वेबसाईट </item>
         <item>ट्रायल भिडियो </item>
         <item>लग आउट </item>
         <!--<item>CATEGORIES</item>-->
         <!--<item>REGISTER</item>-->
+    </string-array>
+    <string-array name="rem_types">
+        <!--<item></item>-->
+        <item>Servicing</item>
+        <item>Mobil Change</item>
+        <item>License Expiry</item>
+        <item>Blue Book Expiry</item>
+        <item>Insurance Expiry</item>
     </string-array>
     <string-array name="useful_tips">
         <item>सवारी साधन </item>

@@ -70,7 +70,7 @@ public class DbQuestionAnswer {
     }
 
     public ArrayList<QuestionObject> getQuestions(String type) {
-        String query = "Select tpn_questions.qid, tpn_questions.question, tpn_question_images.imagePath from tpn_questions left join tpn_question_images on tpn_questions.qid = tpn_question_images.qid where tpn_questions.published = 1 and tpn_questions.qtype= " + type+" Order by RANDOM() limit 5";
+        String query = "Select tpn_questions.qid, tpn_questions.question, tpn_question_images.imagePath from tpn_questions left join tpn_question_images on tpn_questions.qid = tpn_question_images.qid where tpn_questions.published = 1 and tpn_questions.qtype= " + type+" Order by RANDOM() limit 20";
 //        select * from tpn_questions 0;
 
         open();

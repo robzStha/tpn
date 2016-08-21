@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.official.trialpassnepal.R;
 import com.official.trialpassnepal.objects.Question;
+import com.official.trialpassnepal.objects.QuestionAnswer;
 import com.official.trialpassnepal.objects.QuestionObject;
 import com.official.trialpassnepal.staticValues.StaticObject;
 import com.official.trialpassnepal.view.MockTestViewPager;
@@ -24,27 +25,25 @@ import java.util.Iterator;
  */
 public class FinalAnswersAdapter extends BaseAdapter{
 
-    ArrayList<QuestionObject> questionObjects;
     MockTestViewPager context;
     LayoutInflater inflater;
-    ArrayList<String> answers;
+    ArrayList<QuestionAnswer> questionAnswers;
 
-    public FinalAnswersAdapter(ArrayList<QuestionObject> questionObjects, MockTestViewPager context, ArrayList<String> answers) {
-        this.questionObjects = questionObjects;
+    public FinalAnswersAdapter(MockTestViewPager context) {
         this.context = context;
         this.inflater = (LayoutInflater)context.getSystemService
                 (Context.LAYOUT_INFLATER_SERVICE);
-        this.answers = answers;
+        this.questionAnswers = context.questionAnswers;
     }
 
     @Override
     public int getCount() {
-        return questionObjects.size();
+        return questionAnswers.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return questionObjects.get(position);
+        return questionAnswers.get(position);
     }
 
     @Override
@@ -61,25 +60,15 @@ public class FinalAnswersAdapter extends BaseAdapter{
         TextView tvAnswer = (TextView) view.findViewById(R.id.tv_answer);
         ImageView ivCorrect = (ImageView) view.findViewById(R.id.iv_correct);
 
-        tvQuestion.setText(questionObjects.get(position).getQuestion());
-        tvAnswer.setText(answers.get(position));
-        Integer key;
-        Iterator myVeryOwnIterator = context.hmAnswers.keySet().iterator();
-        while(myVeryOwnIterator.hasNext()) {
-            key=(Integer)myVeryOwnIterator.next();
-            HashMap<Integer, Boolean> answer = context.hmAnswers.get(key);
-            Iterator answerIterator = answer.keySet().iterator();
-            Integer ansKey;
-            while(answerIterator.hasNext()){
-                ansKey = (Integer) answerIterator.next();
-                Boolean value = answer.get(ansKey);
-                if(value){
-                    ivCorrect.setVisibility(View.VISIBLE);
-                }else{
-                    ivCorrect.setVisibility(View.GONE);
-                }
-            }
+        tvQuestion.setText(questionAnswers.get(position).getQuestion());
+        tvAnswer.setText(questionAnswers.get(position).getAnswer());
+        if (questionAnswers.get(position).isCorrect()) {
+            ivCorrect.setVisibility(View.VISIBLE);
+        } else {
+            ivCorrect.setVisibility(View.GONE);
         }
+
+
 //        tvAnswer.setText(questionObjects.get(position).);
 
         return view;

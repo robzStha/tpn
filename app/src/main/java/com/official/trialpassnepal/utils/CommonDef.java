@@ -26,6 +26,15 @@ public final class CommonDef {
     public static final String HOME_URL="http://www.trialpassnepal.com/";
     public static final String BASE_URL=HOME_URL+"krujAPI/";
     public static final String[] SIGNS = {"pratibandhtmak","sachet","suchana","dishasuchak"};
+
+    public static String DIRECTION_SIGN_LOC;
+    public static String INFORMATION_SIGN_LOC;
+    public static String QUESTION_SAMPLE_LOC;
+    public static String REGULATORY_SIGN_LOC;
+    public static String SAWARI_SADHAN_LOC;
+    public static String SAWARIKO_NUMBER_PLATE_LOC;
+    public static String TRAFFIC_LICHT_SIGN_LOC;
+    public static String WARNING_SIGN_LOC;
     //getData/krujtpn/0
 
 //    public static class Dirs{

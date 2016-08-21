@@ -1,12 +1,18 @@
 package com.official.trialpassnepal;
 
+import android.Manifest;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.ArrayRes;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.NavUtils;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -43,11 +49,13 @@ import com.official.trialpassnepal.utils.CircleTransform;
 import com.official.trialpassnepal.utils.CommonDef;
 import com.official.trialpassnepal.utils.CommonMethods;
 import com.official.trialpassnepal.utils.ConnectionMngr;
+import com.official.trialpassnepal.utils.CopyToDevice;
 import com.official.trialpassnepal.utils.Opener;
 import com.official.trialpassnepal.utils.SharedPreference;
 import com.official.trialpassnepal.view.TextViewTypeFaced;
 import com.squareup.picasso.Picasso;
 
+import java.io.File;
 import java.util.ArrayList;
 
 import retrofit2.Call;
@@ -58,6 +66,8 @@ import retrofit2.Response;
 public abstract class BaseActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     private ArrayList<NavDrawerItems> navDrawerItems;
+    private static final int MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE = 111;
+
     private String[] navMenuTitles;
     private NavDrawerListAdapter adapter;
     private DrawerLayout mDrawerLayout;
@@ -91,6 +101,7 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
     private DbCategories dbCategories;
     private DbQuestionAnswer dbQuestionAnswer;
     private DbDrivingCenters dbDrivingCenters;
+    private CopyToDevice copyToDevice;
 
     /**
      * @return the view to load in this activity.
@@ -127,14 +138,50 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
         frameLayout.addView(view);
 
         CommonDef.setupUI(BaseActivity.this, frameLayout);
-        Runnable r = new Runnable() {
-            @Override
-            public void run() {
-                Toast.makeText(getApplicationContext(), "Hello", Toast.LENGTH_SHORT).show();
-            }
-        };
+        initPdf();
+//        Runnable r = new Runnable() {
+//            @Override
+//            public void run() {
+//                Toast.makeText(getApplicationContext(), "Hello", Toast.LENGTH_SHORT).show();
+//            }
+//        };
+//
+//        new Handler().postDelayed(r, 5000);
+    }
 
-        new Handler().postDelayed(r, 5000);
+    private void initPdf() {
+        copyToDevice = new CopyToDevice(getApplicationContext());
+
+        if (ContextCompat.checkSelfPermission(BaseActivity.this,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                != PackageManager.PERMISSION_GRANTED) {
+
+            // Should we show an explanation?
+//            if (ActivityCompat.shouldShowRequestPermissionRationale(Dashboard.this,
+//                    Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
+//
+//                // Show an expanation to the user *asynchronously* -- don't block
+//                // this thread waiting for the user's response! After the user
+//                // sees the explanation, try again to request the permission.
+//                Toast.makeText(Dashboard.this, "show an explanation", Toast.LENGTH_LONG).show();
+//
+//            } else {
+//                Toast.makeText(Dashboard.this, "show an explanation else", Toast.LENGTH_LONG).show();
+
+            // No explanation needed, we can request the permission.
+
+            ActivityCompat.requestPermissions(BaseActivity.this,
+                    new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                    MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE);
+            // MY_PERMISSIONS_REQUEST_READ_CONTACTS is an
+            // app-defined int constant. The callback method gets the
+            // result of the request.
+//            }
+        } else {
+            copyPDF();
+        }
+
+
     }
 
     public void setNavUser() {
@@ -166,11 +213,8 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
     }
 
     private void intiNavDrawer() {
-
         ivUserProfilePic = (ImageView) findViewById(R.id.iv_userProfilePic);
         tvUserName = (TextViewTypeFaced) findViewById(R.id.tv_username);
-//        Picasso.with(getApplicationContext()).load(R.drawable.profile).transform(new CircleTransform()).into(ivUserProfilePic);
-//        tvUserName.setText("John Doe");
         navMenuTitles = getResources().getStringArray(R.array.nav_menu);
         navDrawerItems = new ArrayList<>();
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -185,7 +229,7 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
         mDrawerList.setAdapter(adapter);
 
         //shifting the mainview along with the sliding menu
-        mDrawerToggle = new ActionBarDrawerToggle(BaseActivity.this, mDrawerLayout, R.drawable.drawer_icon_dark, R.string.app_name, R.string.app_name) {
+        mDrawerToggle = new ActionBarDrawerToggle(BaseActivity.this, mDrawerLayout, R.drawable.ic_menu_white_24dp, R.string.app_name, R.string.app_name) {
             public void onDrawerClosed(View view) {
                 invalidateOptionsMenu();
             }
@@ -221,15 +265,21 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
         } else if (position == 3) {
             open.SMS();
         } else if (position == 4) {
-            // remainder
+            open.Remainder();
         } else if (position == 5) {
             open.UsefulTips();
         } else if (position == 6) {
-            open.WebSite();
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW);
+            Uri data;
+            data = Uri.fromFile(new File(CommonDef.QUESTION_SAMPLE_LOC));
+            browserIntent.setDataAndType(data, "application/pdf");
+            startActivity(browserIntent);
         } else if (position == 7) {
+            open.WebSite();
+        } else if (position == 8) {
             // trial video
             open.UsefulVideo();
-        } else if (position == 8) {
+        } else if (position == 9) {
             LoginManager.getInstance().logOut();
             finish();
             open.LandingActivity();
@@ -249,7 +299,7 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
     public void enableDrawerButton() {
         BACK_BUTTON_ENABLED = false;
         DRAWER_BUTTON_ENABLED = true;
-        ibtnActionBtn.setImageResource(R.drawable.drawer_icon_dark);
+        ibtnActionBtn.setImageResource(R.drawable.ic_menu_white_24dp);
         ibtnActionBtn.setTag(DRAWER_ID);
         ibtnActionBtn.setOnClickListener(actionBarClickListener);
     }
@@ -352,5 +402,43 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
         dbQuestionAnswer.insertQuestionImages((ArrayList<QuestionImage>) data.getQuestionImages());
         dbQuestionAnswer.insertSubAnswers((ArrayList<SubAnswer>) data.getSubAnswers());
         dbDrivingCenters.insertDrivingCenters((ArrayList<DrivingCenter>) data.getDrivingCenters());
+    }
+
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE: {
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    copyPDF();
+                    // permission was granted, yay! Do the
+                    // contacts-related task you need to do.
+
+                } else {
+                    Toast.makeText(BaseActivity.this, "permission denied", Toast.LENGTH_LONG).show();
+
+                    // permission denied, boo! Disable the
+                    // functionality that depends on this permission.
+                }
+                return;
+            }
+
+            // other 'case' lines to check for other
+            // permissions this app might request
+        }
+    }
+
+    private void copyPDF() {
+        CommonDef.DIRECTION_SIGN_LOC = copyToDevice.copy("direction_signs.pdf");
+        CommonDef.INFORMATION_SIGN_LOC = copyToDevice.copy("information_signs.pdf");
+        CommonDef.QUESTION_SAMPLE_LOC = copyToDevice.copy("question_sample.pdf");
+        CommonDef.REGULATORY_SIGN_LOC = copyToDevice.copy("regulatory_signs.pdf");
+        CommonDef.SAWARI_SADHAN_LOC = copyToDevice.copy("sawari_sadhan.pdf");
+        CommonDef.SAWARIKO_NUMBER_PLATE_LOC = copyToDevice.copy("sawariko_number_plate.pdf");
+        CommonDef.TRAFFIC_LICHT_SIGN_LOC = copyToDevice.copy("traffic_light_signs.pdf");
+        CommonDef.WARNING_SIGN_LOC = copyToDevice.copy("warning_signs.pdf");
     }
 }

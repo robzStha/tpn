@@ -9,6 +9,7 @@ import com.official.trialpassnepal.LandingActivity;
 import com.official.trialpassnepal.NearByDrivingCenters;
 import com.official.trialpassnepal.ObjQstnAns;
 import com.official.trialpassnepal.Registration;
+import com.official.trialpassnepal.ReminderActivity;
 import com.official.trialpassnepal.SendSmsActivity;
 import com.official.trialpassnepal.Signs;
 import com.official.trialpassnepal.SubQstnAns;
@@ -147,4 +148,11 @@ public class Opener {
 //        activity.startActivity(intent);
     }
 
+    public void Remainder() {
+        intent = new Intent(activity, ReminderActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        activity.startActivity(intent);
+    }
 }
