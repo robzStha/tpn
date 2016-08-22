@@ -6,7 +6,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -15,6 +14,7 @@ import com.official.trialpassnepal.BaseActivity;
 import com.official.trialpassnepal.R;
 import com.official.trialpassnepal.db.DbQuestionAnswer;
 import com.official.trialpassnepal.fragments.MockTestFragment;
+import com.official.trialpassnepal.objects.QuestionAnswer;
 import com.official.trialpassnepal.objects.QuestionObject;
 
 import java.util.ArrayList;
@@ -25,6 +25,7 @@ public class MockTestViewPager extends BaseActivity implements MockTestFragment.
     private static ViewPager viewPager;
     public static ArrayList<QuestionObject> alQuestionObjectTemp;
     private MyPagerAdapter adapterViewPager;
+    public ArrayList<QuestionAnswer> questionAnswers = new ArrayList<>();
 
     public ArrayList<String> answers = new ArrayList<>();
     // to store the answer and to check if is correct or not.

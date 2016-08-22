@@ -1,52 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64,x86"
+    abi="armeabi-v7a,armeabi"
     api-level="23"
-    density="560dpi"
+    density="xxhdpi"
     format="7"
-    timestamp="256770357548831"
-    token="-1227615263626713604" >
+    timestamp="1471806158540341000"
+    token="2608216864261312080" >
 
     <task
         name="javac"
-        duration="1954" />
+        duration="4257" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="39" />
+        duration="101" />
     <task
         name="verifier"
-        duration="4" />
+        duration="18" />
 
     <artifact
-        location="E:\Project\AndroidStudio\tpn\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-        type="DEX" />
+        location="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="255441507171036" >
+    <build timestamp="1471806158540341000" >
         <artifact
-            location="E:\Project\AndroidStudio\tpn\app\build\outputs\apk\app-debug.apk"
+            location="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="256232538856086"
-        verifier="FIELD_ADDED" >
-        <artifact
-            location="E:\Project\AndroidStudio\tpn\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="256392048512999"
-        verifier="FIELD_TYPE_CHANGE" >
-        <artifact
-            location="E:\Project\AndroidStudio\tpn\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="256770357548831" >
-        <artifact
-            location="E:\Project\AndroidStudio\tpn\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

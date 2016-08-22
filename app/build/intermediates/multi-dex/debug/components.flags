@@ -1,0 +1,161 @@
+-injars '/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar'
+-outjars '/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/multi-dex/debug/componentClasses.jar'
+
+-libraryjars '/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/android-sdk-macosx/build-tools/23.0.1/lib/shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration '/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/multi-dex/debug/components.flags'
+
+
+-keep class com.official.trialpassnepal.MyApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.official.trialpassnepal.SplashActivity {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.LandingActivity {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.Signs {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.TestListActivity {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.SendSmsActivity {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.service.MySMSReceiver {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.SMSResultActivity {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.NearByDrivingCenters {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.Registration {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.UsefulTipsActivity {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.TipsDetailActivity {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.QuestionNAnswer {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.MockTest {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.view.MockTestViewPager {
+    <init>();
+}
+
+-keep class com.facebook.FacebookActivity {
+    <init>();
+}
+
+-keep class com.facebook.CustomTabActivity {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.CourseMaterial {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.SubQstnAns {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.ObjQstnAns {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.WebViewActivity {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.service.UpdatePullService {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.ReminderActivity {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.service.ReminderReceiver {
+    <init>();
+}
+
+-keep class com.official.trialpassnepal.service.NotifyIntentService {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.AdActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.appinvite.PreviewActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

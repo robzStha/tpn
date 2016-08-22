@@ -1,11 +1,371 @@
 [
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_round.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_edittext.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\layout_edittext.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_near_by_driving_centers.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_near_by_driving_centers.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\final_answer_list_item_view.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\final_answer_list_item_view.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_edittext.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\layout_edittext.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sub_qstn_ans.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\fragment_sub_qstn_ans.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cat_list_item.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\cat_list_item.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_action_bar.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\custom_action_bar.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_categories.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_categories.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_send_sms.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_send_sms.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registration.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mock_test.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\fragment_mock_test.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test_list.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_test_list.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mock_test.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\fragment_mock_test.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mock_test_view_pager.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_mock_test_view_pager.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_material.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_course_material.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_smsresult.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_smsresult.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mock_test.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_mock_test.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_action_bar.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\custom_action_bar.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\final_answer_list.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\final_answer_list.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tips_detail.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_tips_detail.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_list_item.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\drawer_list_item.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mock_test.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_mock_test.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_landing.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_landing.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\remainder_list_item.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\remainder_list_item.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_question_answer.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\item_question_answer.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test_list.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_test_list.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_base.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_near_by_driving_centers.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_near_by_driving_centers.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test_list_item.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\test_list_item.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registration.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tips_detail.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_tips_detail.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sub_qstn_ans.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\fragment_sub_qstn_ans.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_obj_qstn_ans.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_obj_qstn_ans.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_useful.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_useful.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\remainder_list_item.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\remainder_list_item.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
@@ -16,24 +376,12 @@
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
@@ -48,12 +396,12 @@
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\fragment_navigation_drawer.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_useful.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_useful.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
@@ -72,6 +420,10 @@
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
     {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_large.xml"
     },
@@ -80,32 +432,40 @@
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_small.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cat_list_item.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\cat_list_item.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_landing.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_landing.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_base.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\list_item.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_list_item.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\drawer_list_item.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_action_bar.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\custom_action_bar.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_time.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_list_item.xml",
@@ -120,16 +480,32 @@
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sub_qstn_ans.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_sub_qstn_ans.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_material.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_course_material.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_fragment.xml"
+    },
+    {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -144,16 +520,8 @@
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_login_fragment.xml"
-    },
-    {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_question_answer.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\item_question_answer.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
@@ -168,6 +536,10 @@
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\final_answer_list_item_view.xml"
     },
     {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web_view.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_web_view.xml"
+    },
+    {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mock_test_view_pager.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_mock_test_view_pager.xml"
     },
@@ -176,128 +548,104 @@
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_sub_qstn_ans.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mock_test.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\fragment_mock_test.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test_list.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_test_list.xml"
-    },
-    {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_categories.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_categories.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_smsresult.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_smsresult.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_material.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_course_material.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_chooser_dialog.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_smsresult.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_smsresult.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mock_test.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_mock_test.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\final_answer_list.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\final_answer_list.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_round.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web_view.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_web_view.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\final_answer_list.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\final_answer_list.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_large.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_list_item.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\drawer_list_item.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_landing.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_landing.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_chooser_dialog.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cat_list_item.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\cat_list_item.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_navigation_drawer.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\fragment_navigation_drawer.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_send_sms.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_send_sms.xml"
     },
     {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_base.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_near_by_driving_centers.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_near_by_driving_centers.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registration.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_registration.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_small.xml"
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_remainder.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_remainder.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_list_item.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_obj_qstn_ans.xml",
@@ -312,19 +660,15 @@
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tips_detail.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\activity_tips_detail.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_remainder.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\layout\\activity_remainder.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sub_qstn_ans.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\layout\\fragment_sub_qstn_ans.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_title_item.xml"
     }
 ]

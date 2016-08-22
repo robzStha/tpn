@@ -24,9 +24,21 @@
             android:id="@+id/lv_answers"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/tv_title">
+            android:layout_below="@+id/tv_title"
+            android:layout_above="@+id/btn_ok">
 
         </ListView>
+        <Button
+            android:id="@+id/btn_ok"
+            android:background="@drawable/bg_btn_yellow"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ok"/>
     </RelativeLayout>
 
 </RelativeLayout>

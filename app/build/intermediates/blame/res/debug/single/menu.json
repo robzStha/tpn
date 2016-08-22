@@ -1,5 +1,45 @@
 [
     {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_send_sms.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\menu\\menu_send_sms.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\menu\\options.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\menu\\options.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_landing.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\menu\\menu_landing.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_test_list.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\menu\\menu_test_list.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\options.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\options.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_landing.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\menu_landing.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_splash.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\menu_splash.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_smsresult.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\menu_smsresult.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_base.xml",
+        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\menu_base.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_base.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\menu\\menu_base.xml"
+    },
+    {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_registration.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\menu_registration.xml"
     },
@@ -12,36 +52,44 @@
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\menu_send_sms.xml"
     },
     {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_smsresult.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\menu\\menu_smsresult.xml"
+    },
+    {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_useful.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\menu_useful.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\options.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\options.xml"
-    },
-    {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_landing.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\menu_landing.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\menu\\global.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\menu\\global.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_splash.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\menu_splash.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_registration.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\menu\\menu_registration.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_categories.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\menu\\menu_categories.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_categories.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\menu_categories.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_smsresult.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\menu_smsresult.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tips_detail.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\menu\\menu_tips_detail.xml"
     },
     {
-        "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_base.xml",
-        "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\menu_base.xml"
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_useful.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\menu\\menu_useful.xml"
     },
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\global.xml",
@@ -50,5 +98,9 @@
     {
         "merged": "E:\\Project\\AndroidStudio\\tpn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_test_list.xml",
         "source": "E:\\Project\\AndroidStudio\\tpn\\app\\src\\main\\res\\menu\\menu_test_list.xml"
+    },
+    {
+        "merged": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_splash.xml",
+        "source": "E:\\Users\\Slowhand Jr.\\Desktop\\ANDROID-STUFFS\\TrialPassNepal\\app\\src\\main\\res\\menu\\menu_splash.xml"
     }
 ]

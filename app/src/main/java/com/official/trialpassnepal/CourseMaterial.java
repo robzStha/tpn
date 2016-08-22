@@ -38,7 +38,6 @@ public class CourseMaterial extends BaseActivity {
         lvCourseMaterial.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(getApplicationContext(), courseMaterial[i], Toast.LENGTH_SHORT).show();
                 switch(i){
                     case 0:
                         open.Signs();
