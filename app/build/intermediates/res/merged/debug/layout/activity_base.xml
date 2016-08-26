@@ -13,7 +13,15 @@
              space available using match_parent in both dimensions. -->
         <FrameLayout android:id="@+id/fl_fullContainer"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent">
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/progress_bar"
+                android:layout_gravity="center"
+                android:text="Loading..."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </FrameLayout>
 
         <include
             android:id="@+id/action_bar_custom"

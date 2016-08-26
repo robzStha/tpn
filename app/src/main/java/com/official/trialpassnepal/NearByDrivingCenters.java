@@ -97,7 +97,7 @@ public class NearByDrivingCenters extends BaseActivity {
     /**
      * This is where we can add markers or lines, add listeners or move the camera. In this case, we
      * just add a marker near Africa.
-     * <p/>
+     * <p/>rt
      * This should only be called once and when we are sure that {@link #mMap} is not null.
      */
     private void setUpMap() {
@@ -113,7 +113,7 @@ public class NearByDrivingCenters extends BaseActivity {
                     GooglePlayServicesUtil.getErrorDialog(service, NearByDrivingCenters.this, 2);
                     break;
                 case ConnectionResult.SUCCESS:
-                    mMap.setMyLocationEnabled(true);
+//                    mMap.setMyLocationEnabled(true);
 //                    Location location = mMap.getMyLocation();
                     Location location = GoogleMapUtils.getMyLocation(NearByDrivingCenters.this);
 
@@ -122,7 +122,7 @@ public class NearByDrivingCenters extends BaseActivity {
                     } else {
                         //for nepal
                         LatLngBounds latLngBounds = new LatLngBounds(new LatLng(27.667984, 85.2790976), new LatLng(27.7499367, 85.37316799999999));
-                        mMap.animateCamera(CameraUpdateFactory.newLatLngBounds(latLngBounds, 1200, 1200, 10));
+                        mMap.animateCamera(CameraUpdateFactory.newLatLngBounds(latLngBounds, 1200, 1200, 100));
                     }
                     loadLocation(location);
             }

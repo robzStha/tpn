@@ -33,6 +33,7 @@
     <string name="title_tax">Enter Vehicle Number (eg BA37PA3999)</string>
     <string name="btn_checkTax">Check Tax</string>
     <string name="ok">OK</string>
+    <string name="website">वेबसाईट</string>
     <string name="cancel">Cancel</string>
     <string name="title_activity_smsresult">SMSResultActivity</string>
     <string name="btn_back">BACK</string>
@@ -52,11 +53,13 @@
     <string name="bisyagat_prashnaharu">बिषयगत प्रश्नहरु </string>
     <string name="bastugat_prashnaharu">बस्तुगत प्रश्नहरु </string>
     <string name="remainder">रिमाइन्डर </string>
+    <string name="trial_video">ट्रायल भिडियो  </string>
 
     <string-array name="useful_tips">
         <item>सवारी साधन </item>
         <item>सवारी नम्बर प्लेट</item>
         <item>ट्राफिक बत्तिका संकेत</item>
     </string-array>
+    <string name="title_activity_base_drawer">BaseDrawer</string>
 
 </resources>

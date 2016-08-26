@@ -34,7 +34,8 @@
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_ans"
         android:background="@drawable/bg_btn_blue"
-        android:gravity="center"
+        android:gravity="center_vertical"
+        android:drawablePadding="20dp"
         android:layout_marginBottom="10dp"
         android:textColor="@android:color/white"
         android:id="@+id/tv_ans1"/>
@@ -44,7 +45,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_ans"
-        android:gravity="center"
+        android:gravity="center_vertical"
+        android:drawablePadding="20dp"
         android:background="@drawable/bg_btn_blue"
         android:layout_marginBottom="10dp"
         android:textColor="@android:color/white"
@@ -54,8 +56,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_ans"
+        android:drawablePadding="20dp"
         android:background="@drawable/bg_btn_blue"
-        android:gravity="center"
+        android:gravity="center_vertical"
         android:layout_marginBottom="10dp"
         android:textColor="@android:color/white"
         android:id="@+id/tv_ans3"/>
@@ -64,10 +67,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_ans"
+        android:drawablePadding="20dp"
         android:background="@drawable/bg_btn_blue"
         android:layout_marginBottom="10dp"
         android:textColor="@android:color/white"
-        android:gravity="center"
+        android:gravity="center_vertical"
         android:id="@+id/tv_ans4"/>
 
     </LinearLayout>

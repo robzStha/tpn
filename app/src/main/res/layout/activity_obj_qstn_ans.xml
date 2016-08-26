@@ -20,7 +20,7 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:orientation="horizontal"
-        android:background="@color/grey_light"
+        android:background="@color/orange"
         android:weightSum="8">
 
         <com.official.trialpassnepal.view.ButtonTypeFaced

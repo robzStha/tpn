@@ -88,20 +88,27 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".UsefulTipsActivity"
-            android:label="@string/title_activity_useful" />
+            android:label="@string/title_activity_useful"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".TipsDetailActivity"
-            android:label="@string/title_activity_tips_detail" />
-        <activity android:name=".QuestionNAnswer" />
-        <activity android:name=".MockTest" />
-        <activity android:name=".view.MockTestViewPager" />
+            android:label="@string/title_activity_tips_detail"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QuestionNAnswer"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MockTest"
+            android:screenOrientation="portrait" />
+        <activity android:name=".view.MockTestViewPager"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.facebook.CustomTabActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -112,29 +119,45 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name=".CourseMaterial" />
-        <activity android:name=".SubQstnAns" />
-        <activity android:name=".ObjQstnAns" />
-        <activity android:name=".WebViewActivity" />
+        <activity android:name=".CourseMaterial"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SubQstnAns"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ObjQstnAns"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".WebViewActivity"
+            android:screenOrientation="portrait"/>
 
         <service
             android:name=".service.UpdatePullService"
             android:exported="false" />
 
-        <activity android:name=".ReminderActivity" />
+        <activity android:name=".ReminderActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SelectUserInterest"
+            android:screenOrientation="portrait" />
 
         <receiver
             android:name=".service.ReminderReceiver"
-            android:process=":remote"
-            android:enabled="true">
+            android:enabled="true"
+            android:process=":remote">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
-            </receiver>
+        </receiver>
+        <receiver
+            android:name=".service.SyncReceiver"
+            android:enabled="true"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
 
         <service
             android:name=".service.NotifyIntentService"
-            android:exported="false"></service>
+            android:exported="false" />
+
     </application>
 
 </manifest>

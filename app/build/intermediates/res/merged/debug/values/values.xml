@@ -132,6 +132,7 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
+    <color name="orange">#ffa64d</color>
     <color name="place_autocomplete_prediction_primary_text">#212121</color>
     <color name="place_autocomplete_prediction_primary_text_highlight">#757575</color>
     <color name="place_autocomplete_prediction_secondary_text">#757575</color>
@@ -308,10 +309,13 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="fab_margin">16dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
     <dimen name="mr_media_route_controller_art_max_height">320dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
@@ -339,6 +343,12 @@
     <dimen name="txt_h5">15sp</dimen>
     <dimen name="txt_h6">12sp</dimen>
     <dimen name="txt_h7">10sp</dimen>
+    <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
+    <item name="ic_menu_gallery" type="drawable">@android:drawable/ic_menu_gallery</item>
+    <item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="transparent">#00000000</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -388,7 +398,7 @@
     <string name="cast_notification_connecting_message">Connecting to <ns1:g id="name">%1$s</ns1:g></string>
     <string name="cast_notification_disconnect">Disconnect</string>
     <string name="chinhaharu">चिन्हहरु</string>
-    <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b>&lt;br />on your smartphone or computer&lt;br />and enter this code</string>
+    <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> on your smartphone or computer and enter this code</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
     <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
@@ -482,6 +492,7 @@ https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend
     <string name="store_picture_title">Save image</string>
     <string name="tag_login">By Clicking Login You Agree\nTo The <B>Terms And Conditions</B></string>
     <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_base_drawer">BaseDrawer</string>
     <string name="title_activity_course_material">पाठ्यक्रम सामाग्री </string>
     <string name="title_activity_landing">LandingActivity</string>
     <string name="title_activity_mock_test">तयारी परीक्षा </string>
@@ -494,7 +505,9 @@ https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend
     <string name="title_activity_tips_detail">महत्वपूर्ण जानकारी</string>
     <string name="title_activity_useful">महत्वपूर्ण जानकारी</string>
     <string name="title_tax">Enter Vehicle Number (eg BA37PA3999)</string>
+    <string name="trial_video">ट्रायल भिडियो  </string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
+    <string name="website">वेबसाईट</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -502,6 +515,12 @@ https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
         <item name="listLayout">@layout/abc_select_dialog_material</item>

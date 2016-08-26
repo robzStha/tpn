@@ -26,6 +26,10 @@ public final class CommonDef {
     public static final String HOME_URL="http://www.trialpassnepal.com/";
     public static final String BASE_URL=HOME_URL+"krujAPI/";
     public static final String[] SIGNS = {"pratibandhtmak","sachet","suchana","dishasuchak"};
+    public static final String USER_INTEREST = "user_interest";
+    public static final String CAR = "car";
+    public static final String BIKE = "bike";
+    public static final String BOTH = "both";
 
     public static String DIRECTION_SIGN_LOC;
     public static String INFORMATION_SIGN_LOC;

@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_centerVertical="true"
-            android:paddingLeft="@dimen/space5"
+            android:paddingLeft="-5dp"
             android:paddingRight="@dimen/space5"
             android:text="TITLE"
             android:layout_toRightOf="@+id/ibtn_action"

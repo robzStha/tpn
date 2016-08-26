@@ -69,8 +69,9 @@ public class LandingActivity extends BaseActivity {
                 // App code
                 System.out.println("token: "+loginResult.getAccessToken());
                 loginButton.setVisibility(View.GONE);
-//                finish();
-                syncData();
+                finish();
+//                syncData();
+                opener.SelectUserInterest();
             }
 
             @Override

@@ -28,7 +28,7 @@ public class SendSmsActivity extends BaseActivity {
 
     @Override
     protected String actionBarTitle() {
-        return "Inquiry Vehicle Info";
+        return "सवारी कर चेक ";
     }
 
     @Override

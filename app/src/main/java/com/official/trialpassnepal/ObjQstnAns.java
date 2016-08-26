@@ -57,7 +57,7 @@ public class ObjQstnAns extends BaseActivity implements ObjQstnAnsFragment.OnFra
         viewPager.setAdapter(adapterViewPager);
         btnNext = (ButtonTypeFaced) findViewById(R.id.btn_next);
         btnPrev = (ButtonTypeFaced) findViewById(R.id.btn_prev);
-
+        setBackButton();
         tvPageInfo = (TextViewTypeFaced) findViewById(R.id.tv_totalPages);
         tvCurrentPage = (TextViewTypeFaced) findViewById(R.id.tv_currentPage);
         tvPageInfo.setText(alQuestionObjectTemp.size() + "");

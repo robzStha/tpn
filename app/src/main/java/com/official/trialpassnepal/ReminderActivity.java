@@ -369,7 +369,7 @@ public class ReminderActivity extends BaseActivity {
                             date.set(Calendar.HOUR_OF_DAY, hourOfDay);
                             date.set(Calendar.MINUTE, minute);
                             int hour = date.get(Calendar.HOUR_OF_DAY);
-                            int month = date.get(Calendar.MONTH);
+                            int month = date.get(Calendar.MONTH)+1;
                             int dayOfMonth = date.get(Calendar.DAY_OF_MONTH);
                             int min = date.get(Calendar.MINUTE);
                             hour = hour == 0 ? 12 : hour;

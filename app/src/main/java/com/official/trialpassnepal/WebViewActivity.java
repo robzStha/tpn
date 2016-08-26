@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import com.official.trialpassnepal.utils.CommonDef;
 
-public class WebViewActivity extends AppCompatActivity {
+public class WebViewActivity extends BaseActivity {
 
     private WebView webview;
     private ProgressDialog progressBar;
@@ -23,9 +23,18 @@ public class WebViewActivity extends AppCompatActivity {
     private String type="";
 
     @Override
+    protected int getLayoutId() {
+        return R.layout.activity_web_view;
+    }
+
+    @Override
+    protected String actionBarTitle() {
+        return getString(R.string.website);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_web_view);
         this.webview = (WebView)findViewById(R.id.webview);
         btnBack = (ImageButton) findViewById(R.id.btn_back);
 
@@ -80,6 +89,7 @@ public class WebViewActivity extends AppCompatActivity {
         if(type.equals("")) {
             webview.loadUrl("http://www.trialpassnepal.com");
         }else if(type.equals("youtube")){
+            setTitle(getString(R.string.trial_video));
             mUrl = "https://www.youtube.com/channel/UCynOruPGMPVeip5jndyvusA";
             webview.loadUrl(mUrl);
         }else if(type.equals(CommonDef.SIGNS[0])){

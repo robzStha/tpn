@@ -22,7 +22,7 @@ public class SMSResultActivity extends BaseActivity {
 
     @Override
     protected String actionBarTitle() {
-        return "Vehicle Info";
+        return "सवारी कर चेक ";
     }
 
     @Override

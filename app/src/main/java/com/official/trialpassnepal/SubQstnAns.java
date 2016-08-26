@@ -17,6 +17,7 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -32,7 +33,7 @@ import com.official.trialpassnepal.view.TextViewTypeFaced;
 import java.util.ArrayList;
 import java.util.zip.Inflater;
 
-public class SubQstnAns extends AppCompatActivity implements SubQstnAnsFragment.OnFragmentInteractionListener {
+public class SubQstnAns extends BaseActivity implements SubQstnAnsFragment.OnFragmentInteractionListener {
 
     private ViewPager viewPager;
     private static ArrayList<SubQstnAnsObject> subQstnAnsObjects;
@@ -42,12 +43,24 @@ public class SubQstnAns extends AppCompatActivity implements SubQstnAnsFragment.
     private TextViewTypeFaced tvCurrentPage;
 
     @Override
+    protected int getLayoutId() {
+        return R.layout.activity_sub_qstn_ans;
+    }
+
+    @Override
+    protected String actionBarTitle() {
+        return getString(R.string.bisyagat_prashnaharu);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sub_qstn_ans);
-        getSupportActionBar().setTitle(R.string.bisyagat_prashnaharu);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
+//        setContentView();
+//        getSupportActionBar().setTitle(R.string.bisyagat_prashnaharu);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        setBackButton();
 
         viewPager = (ViewPager) findViewById(R.id.vpPager);
         subQstnAnsObjects = new DbQuestionAnswer(getApplicationContext()).getSubQstnAns();// gets obj quesiton

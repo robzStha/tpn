@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:2:1-140:12
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:2:1-163:12
 	xmlns:android
 		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:2:11-69
 	package
@@ -82,7 +82,7 @@ ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/mai
 	android:name
 		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:15:22-95
 application
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:21:5-138:19
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:21:5-161:19
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:27:5-20
@@ -189,11 +189,11 @@ MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/Slowhan
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:28:5-37:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.15.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.android.support:cardview-v7:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:customtabs:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:26:9-41
 	android:allowBackup
@@ -343,111 +343,149 @@ ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/mai
 	android:name
 		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:86:13-41
 activity#com.official.trialpassnepal.UsefulTipsActivity
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:89:9-91:61
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:89:9-92:51
+	android:screenOrientation
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:92:13-49
 	android:label
 		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:91:13-58
 	android:name
 		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:90:13-47
 activity#com.official.trialpassnepal.TipsDetailActivity
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:92:9-94:66
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:93:9-96:51
+	android:screenOrientation
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:96:13-49
 	android:label
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:94:13-63
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:95:13-63
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:93:13-47
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:94:13-47
 activity#com.official.trialpassnepal.QuestionNAnswer
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:95:9-53
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:97:9-98:52
+	android:screenOrientation
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:98:13-49
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:95:19-50
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:97:19-50
 activity#com.official.trialpassnepal.MockTest
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:96:9-46
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:99:9-100:52
+	android:screenOrientation
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:100:13-49
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:96:19-43
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:99:19-43
 activity#com.official.trialpassnepal.view.MockTestViewPager
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:97:9-60
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:101:9-102:52
+	android:screenOrientation
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:102:13-49
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:97:19-57
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:101:19-57
 activity#com.facebook.FacebookActivity
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:98:9-102:75
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:29:9-32:75
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:103:9-108:52
+MERGED from [com.facebook.android:facebook-android-sdk:4.15.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/AndroidManifest.xml:29:9-32:75
+	android:screenOrientation
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:108:13-49
 	android:label
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:101:13-45
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:106:13-45
 	android:configChanges
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:100:13-96
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:105:13-96
 	android:theme
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:102:13-72
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:107:13-72
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:99:13-57
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:104:13-57
 activity#com.facebook.CustomTabActivity
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:103:9-114:20
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:33:9-36:20
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:109:9-121:20
+MERGED from [com.facebook.android:facebook-android-sdk:4.15.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/AndroidManifest.xml:33:9-36:20
+	android:screenOrientation
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:111:13-49
 	android:exported
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:105:13-36
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:112:13-36
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:104:13-58
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:110:13-58
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:106:13-113:29
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:113:13-120:29
 action#android.intent.action.VIEW
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:107:17-69
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:114:17-69
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:107:25-66
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:114:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:109:17-76
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:116:17-76
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:109:27-73
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:116:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:110:17-78
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:117:17-78
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:110:27-75
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:117:27-75
 data
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:112:17-75
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:119:17-75
 	android:scheme
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:112:23-72
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:119:23-72
 activity#com.official.trialpassnepal.CourseMaterial
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:115:9-52
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:122:9-123:52
+	android:screenOrientation
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:123:13-49
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:115:19-49
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:122:19-49
 activity#com.official.trialpassnepal.SubQstnAns
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:116:9-48
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:124:9-125:52
+	android:screenOrientation
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:125:13-49
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:116:19-45
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:124:19-45
 activity#com.official.trialpassnepal.ObjQstnAns
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:117:9-48
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:126:9-127:51
+	android:screenOrientation
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:127:13-49
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:117:19-45
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:126:19-45
 activity#com.official.trialpassnepal.WebViewActivity
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:118:9-53
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:128:9-129:51
+	android:screenOrientation
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:129:13-49
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:118:19-50
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:128:19-50
 service#com.official.trialpassnepal.service.UpdatePullService
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:120:9-122:40
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:131:9-133:40
 	android:exported
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:122:13-37
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:133:13-37
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:121:13-54
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:132:13-54
 activity#com.official.trialpassnepal.ReminderActivity
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:124:9-54
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:135:9-136:52
+	android:screenOrientation
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:136:13-49
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:124:19-51
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:135:19-51
+activity#com.official.trialpassnepal.SelectUserInterest
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:137:9-138:52
+	android:screenOrientation
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:138:13-49
+	android:name
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:137:19-53
 receiver#com.official.trialpassnepal.service.ReminderReceiver
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:126:9-133:24
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:140:9-147:20
 	android:process
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:128:13-38
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:143:13-38
 	android:enabled
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:129:13-35
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:142:13-35
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:127:13-53
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:141:13-53
 intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:130:13-132:29
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:144:13-146:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:131:17-79
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:145:17-79
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:131:25-76
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:145:25-76
+receiver#com.official.trialpassnepal.service.SyncReceiver
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:148:9-155:20
+	android:process
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:151:13-38
+	android:enabled
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:150:13-35
+	android:name
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:149:13-49
 service#com.official.trialpassnepal.service.NotifyIntentService
-ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:135:9-137:48
+ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:157:9-159:40
 	android:exported
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:137:13-37
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:159:13-37
 	android:name
-		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:136:13-56
+		ADDED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml:158:13-56
 uses-sdk
 INJECTED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:multidex:1.0.1] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
@@ -587,11 +625,11 @@ MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/Slowhand Jr
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.15.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:cardview-v7:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:customtabs:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/AndroidManifest.xml
@@ -699,3 +737,7 @@ ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/Slowhand Jr.
 		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:31:13-107
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:29:13-62
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.15.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/AndroidManifest.xml:37:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.15.0] /Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/AndroidManifest.xml:37:19-68

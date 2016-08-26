@@ -13,6 +13,7 @@ import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.NavUtils;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -25,7 +26,9 @@ import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.facebook.Profile;
@@ -67,6 +70,7 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
 
     private ArrayList<NavDrawerItems> navDrawerItems;
     private static final int MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE = 111;
+    TextView progressBar;
 
     private String[] navMenuTitles;
     private NavDrawerListAdapter adapter;
@@ -117,7 +121,7 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
         setContentView(R.layout.activity_base);
         actionBar = getSupportActionBar();
         actionBar.hide();
-
+        progressBar = (TextView) findViewById(R.id.progress_bar);
         connectionMngr = new ConnectionMngr(BaseActivity.this);
         open = new Opener(this);
         prefs = new SharedPreference(this);
@@ -139,14 +143,6 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
 
         CommonDef.setupUI(BaseActivity.this, frameLayout);
         initPdf();
-//        Runnable r = new Runnable() {
-//            @Override
-//            public void run() {
-//                Toast.makeText(getApplicationContext(), "Hello", Toast.LENGTH_SHORT).show();
-//            }
-//        };
-//
-//        new Handler().postDelayed(r, 5000);
     }
 
     private void initPdf() {
@@ -212,6 +208,14 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
 
     }
 
+    public void setBackButton(){
+        BACK_BUTTON_ENABLED = true;
+        DRAWER_BUTTON_ENABLED = false;
+        ibtnActionBtn.setImageResource(R.drawable.ic_arrow_back_white_24dp);
+        ibtnActionBtn.setTag(BACK_BUTTON_ID);
+        ibtnActionBtn.setOnClickListener(actionBarClickListener);
+    }
+
     private void intiNavDrawer() {
         ivUserProfilePic = (ImageView) findViewById(R.id.iv_userProfilePic);
         tvUserName = (TextViewTypeFaced) findViewById(R.id.tv_username);
@@ -252,40 +256,112 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
 
     }
 
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        frameLayout.setVisibility(View.VISIBLE);
+        progressBar.setVisibility(View.GONE);
+    }
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//        Toast.makeText(this, "Position= " + position, Toast.LENGTH_SHORT).show();
+        frameLayout.setVisibility(View.INVISIBLE);
         if (position == 0) { // Pathya kram samagri = Course material
-            open.CourseMaterial();
+            progressBar.setVisibility(View.VISIBLE);
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    open.CourseMaterial();
+                }
+            }, 100);
         } else if (position == 1) {
-            open.QuestionNAnswer();
+            progressBar.setVisibility(View.VISIBLE);
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    open.QuestionNAnswer();
+                }
+            }, 200);
         } else if (position == 2) {
-            open.NearByDrivingCenters();
+            progressBar.setVisibility(View.VISIBLE);
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    open.NearByDrivingCenters();
+                }
+            }, 500);
         } else if (position == 3) {
-            open.SMS();
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    open.SMS();
+                }
+            }, 100);
         } else if (position == 4) {
-            open.Remainder();
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    open.Remainder();
+                }
+            }, 100);
         } else if (position == 5) {
-            open.UsefulTips();
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    open.UsefulTips();
+                }
+            }, 100);
         } else if (position == 6) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW);
-            Uri data;
-            data = Uri.fromFile(new File(CommonDef.QUESTION_SAMPLE_LOC));
-            browserIntent.setDataAndType(data, "application/pdf");
-            startActivity(browserIntent);
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    Intent browserIntent = new Intent(Intent.ACTION_VIEW);
+                    Uri data;
+                    data = Uri.fromFile(new File(CommonDef.QUESTION_SAMPLE_LOC));
+                    browserIntent.setDataAndType(data, "application/pdf");
+                    startActivity(browserIntent);
+                }
+            }, 50);
+
         } else if (position == 7) {
-            open.WebSite();
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    open.WebSite();
+                }
+            }, 300);
         } else if (position == 8) {
             // trial video
-            open.UsefulVideo();
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    open.UsefulVideo();
+                }
+            }, 100);
         } else if (position == 9) {
-            LoginManager.getInstance().logOut();
-            finish();
-            open.LandingActivity();
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    LoginManager.getInstance().logOut();
+                    prefs.setKeyValues(CommonDef.USER_INTEREST, "");
+                    finish();
+                    open.LandingActivity();
+                }
+            }, 100);
+
         }
-        if (mDrawerLayout.isDrawerOpen(Gravity.RIGHT))
-            mDrawerLayout.closeDrawer(Gravity.LEFT);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
     }
 
     void initCustomBar() {
@@ -295,6 +371,16 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
         rlCustomActionBar = (RelativeLayout) findViewById(R.id.ll_custom_action_bar);
         enableDrawerButton();
     }
+
+    public void setTitle(String title){
+        tvActionTitle.setText(title);
+    }
+
+    public void hideMenu() {
+        ibtnActionBtn.setVisibility(View.GONE);
+    }
+
+
 
     public void enableDrawerButton() {
         BACK_BUTTON_ENABLED = false;
@@ -308,7 +394,7 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
         @Override
         public void onClick(View v) {
             if (v.getTag().equals(BACK_BUTTON_ID)) {
-                NavUtils.navigateUpFromSameTask(BaseActivity.this);
+                finish();
             } else if (v.getTag().equals(DRAWER_ID)) {
                 if (mDrawerLayout.isDrawerOpen(Gravity.LEFT)) {
                     mDrawerLayout.closeDrawer(Gravity.RIGHT);
@@ -366,8 +452,10 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
             call.enqueue(new Callback<SyncData>() {
                 @Override
                 public void onResponse(Call<SyncData> call, Response<SyncData> response) {
+
+                    System.out.println("This is the response error: " + response.errorBody());
                     System.out.println("This is the response: " + response.body().getCode());
-                    System.out.println("response: "+response.errorBody());
+                    System.out.println("response: " + response.errorBody());
                     SyncData syncData = response.body();
                     String newUpdateTimeStamp = syncData.getUpdatedDate();
                     prefs.setKeyValues(CommonDef.SharedPrefKeys.LAST_UPDATE_TIMESTAMP, newUpdateTimeStamp);
@@ -377,8 +465,8 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
                         dbCategories.truncate();
                         dbQuestionAnswer.truncate();
                         dbDrivingCenters.truncate();
+                        CommonMethods.setDatabase(data, getApplicationContext());
                     }
-                    setDatabase(data);
                     progressDialog.dismiss();
                     finish();
                     open.CourseMaterial(); // after successful data sync open course materials
@@ -387,21 +475,14 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
                 @Override
                 public void onFailure(Call<SyncData> call, Throwable t) {
                     progressDialog.dismiss();
-                    System.out.println("Error::: " + t.getMessage()+"---"+t.getLocalizedMessage());
+                    System.out.println("Error::: " + t.getMessage() + "---" + t.getLocalizedMessage());
+                    finish();
+                    open.CourseMaterial();
 
                 }
             });
         } else
             open.CourseMaterial();
-    }
-
-    private void setDatabase(Data data) {
-        dbCategories.insertCategories((ArrayList<Category>) data.getCategory());
-        dbQuestionAnswer.insertQuestions((ArrayList<Question>) data.getQuestions());
-        dbQuestionAnswer.insertQuestionOptions((ArrayList<QuestionOption>) data.getQuestionOptions());
-        dbQuestionAnswer.insertQuestionImages((ArrayList<QuestionImage>) data.getQuestionImages());
-        dbQuestionAnswer.insertSubAnswers((ArrayList<SubAnswer>) data.getSubAnswers());
-        dbDrivingCenters.insertDrivingCenters((ArrayList<DrivingCenter>) data.getDrivingCenters());
     }
 
 
@@ -425,9 +506,6 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
                 }
                 return;
             }
-
-            // other 'case' lines to check for other
-            // permissions this app might request
         }
     }
 
@@ -440,5 +518,11 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
         CommonDef.SAWARIKO_NUMBER_PLATE_LOC = copyToDevice.copy("sawariko_number_plate.pdf");
         CommonDef.TRAFFIC_LICHT_SIGN_LOC = copyToDevice.copy("traffic_light_signs.pdf");
         CommonDef.WARNING_SIGN_LOC = copyToDevice.copy("warning_signs.pdf");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        progressBar.setVisibility(View.GONE);
     }
 }

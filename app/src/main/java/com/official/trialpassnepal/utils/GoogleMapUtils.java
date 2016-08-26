@@ -118,9 +118,6 @@ public class GoogleMapUtils {
         if(animate) {
             CameraPosition cameraPosition = new CameraPosition.Builder().target(latLng).zoom(13).build();
 
-//            CameraUpdate center =CameraUpdateFactory.newLatLng(latLng);
-//            CameraUpdate zoom = CameraUpdateFactory.zoomTo(13);
-//
 //            mMap.moveCamera(center);
             mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
             MarkerOptions marker = new MarkerOptions().position(latLng).title("My Location");
@@ -148,7 +145,7 @@ public class GoogleMapUtils {
             marker.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
             mMap.addMarker(marker);
         }else{
-            mMap.addMarker(new MarkerOptions().position(latLng).title(drivingCenterObject.getDcName()).snippet(drivingCenterObject.getDcProprietor()));
+            mMap.addMarker(new MarkerOptions().position(latLng).title(drivingCenterObject.getDcName()).snippet(drivingCenterObject.getDcProprietor()+" - " +drivingCenterObject.getDcConactNo()));
         }
     }
 

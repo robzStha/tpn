@@ -13,12 +13,15 @@ import android.widget.ImageView;
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
 import com.official.trialpassnepal.service.UpdatePullService;
+import com.official.trialpassnepal.utils.CommonDef;
 import com.official.trialpassnepal.utils.CommonMethods;
 import com.official.trialpassnepal.utils.Opener;
+import com.official.trialpassnepal.utils.SharedPreference;
 
 public class SplashActivity extends AppCompatActivity {
 
     AnimationDrawable rocketAnimation;
+    SharedPreference prefs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +29,7 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
-
+        prefs = new SharedPreference(SplashActivity.this);
         ImageView rocketImage = (ImageView) findViewById(R.id.iv_loading);
         rocketImage.setBackgroundResource(R.drawable.splash_anim);
         rocketAnimation = (AnimationDrawable) rocketImage.getBackground();
@@ -46,11 +49,14 @@ public class SplashActivity extends AppCompatActivity {
                 if (a.getCurrent() != a.getFrame(a.getNumberOfFrames() - 1)) {
                     onAnimationFinish(a);
                 } else {
-                    if(!CommonMethods.isLoggedIn()) {
+                    if (!CommonMethods.isLoggedIn()) {
                         Intent i = new Intent(SplashActivity.this, LandingActivity.class);
                         startActivity(i);
-                    }else{
-                        new Opener(SplashActivity.this).CourseMaterial();
+                    } else {
+                        if (!(prefs.getStringValues(CommonDef.USER_INTEREST)).isEmpty())
+                            new Opener(SplashActivity.this).CourseMaterial();
+                        else
+                            new Opener(SplashActivity.this).SelectUserInterest();
                     }
                     finish();
                 }

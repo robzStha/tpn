@@ -28,8 +28,29 @@
                     "startLine": 6,
                     "startColumn": 4,
                     "startOffset": 253,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 549
+                },
+                "from": {
+                    "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 255,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 554,
                     "endColumn": 90,
-                    "endOffset": 339
+                    "endOffset": 640
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -44,11 +65,11 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 344,
+                    "startOffset": 645,
                     "endColumn": 102,
-                    "endOffset": 442
+                    "endOffset": 743
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -63,11 +84,11 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 447,
+                    "startOffset": 748,
                     "endColumn": 102,
-                    "endOffset": 545
+                    "endOffset": 846
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -82,11 +103,11 @@
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 550,
+                    "startOffset": 851,
                     "endColumn": 104,
-                    "endOffset": 650
+                    "endOffset": 951
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -101,11 +122,11 @@
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 655,
+                    "startOffset": 956,
                     "endColumn": 106,
-                    "endOffset": 757
+                    "endOffset": 1058
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -120,11 +141,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 762,
+                    "startOffset": 1063,
                     "endColumn": 108,
-                    "endOffset": 866
+                    "endOffset": 1167
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -139,11 +160,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 871,
+                    "startOffset": 1172,
                     "endColumn": 108,
-                    "endOffset": 975
+                    "endOffset": 1276
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -158,11 +179,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 980,
+                    "startOffset": 1281,
                     "endColumn": 108,
-                    "endOffset": 1084
+                    "endOffset": 1385
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -177,11 +198,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1089,
+                    "startOffset": 1390,
                     "endColumn": 108,
-                    "endOffset": 1193
+                    "endOffset": 1494
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -196,11 +217,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1198,
+                    "startOffset": 1499,
                     "endColumn": 108,
-                    "endOffset": 1302
+                    "endOffset": 1603
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -215,11 +236,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1307,
+                    "startOffset": 1608,
                     "endColumn": 106,
-                    "endOffset": 1409
+                    "endOffset": 1710
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -234,11 +255,11 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1414,
+                    "startOffset": 1715,
                     "endColumn": 102,
-                    "endOffset": 1512
+                    "endOffset": 1813
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -253,11 +274,11 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1517,
+                    "startOffset": 1818,
                     "endColumn": 118,
-                    "endOffset": 1631
+                    "endOffset": 1932
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -272,12 +293,12 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1636,
-                    "endLine": 20,
+                    "startOffset": 1937,
+                    "endLine": 26,
                     "endColumn": 12,
-                    "endOffset": 1786
+                    "endOffset": 2087
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -293,12 +314,12 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 1791,
-                    "endLine": 22,
+                    "startOffset": 2092,
+                    "endLine": 28,
                     "endColumn": 12,
-                    "endOffset": 1941
+                    "endOffset": 2242
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -314,11 +335,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 1946,
+                    "startOffset": 2247,
                     "endColumn": 104,
-                    "endOffset": 2046
+                    "endOffset": 2347
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -333,11 +354,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 2051,
+                    "startOffset": 2352,
                     "endColumn": 120,
-                    "endOffset": 2167
+                    "endOffset": 2468
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -352,11 +373,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 2172,
+                    "startOffset": 2473,
                     "endColumn": 100,
-                    "endOffset": 2268
+                    "endOffset": 2569
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -371,12 +392,12 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 2273,
-                    "endLine": 27,
+                    "startOffset": 2574,
+                    "endLine": 33,
                     "endColumn": 12,
-                    "endOffset": 2415
+                    "endOffset": 2716
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -392,12 +413,12 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 2420,
-                    "endLine": 29,
+                    "startOffset": 2721,
+                    "endLine": 35,
                     "endColumn": 12,
-                    "endOffset": 2556
+                    "endOffset": 2857
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -413,11 +434,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 2561,
+                    "startOffset": 2862,
                     "endColumn": 102,
-                    "endOffset": 2659
+                    "endOffset": 2960
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -432,11 +453,11 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 2664,
+                    "startOffset": 2965,
                     "endColumn": 118,
-                    "endOffset": 2778
+                    "endOffset": 3079
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -451,11 +472,11 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 2783,
+                    "startOffset": 3084,
                     "endColumn": 106,
-                    "endOffset": 2885
+                    "endOffset": 3186
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -470,11 +491,11 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 2890,
+                    "startOffset": 3191,
                     "endColumn": 102,
-                    "endOffset": 2988
+                    "endOffset": 3289
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -489,12 +510,12 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 2993,
-                    "endLine": 35,
+                    "startOffset": 3294,
+                    "endLine": 41,
                     "endColumn": 12,
-                    "endOffset": 3135
+                    "endOffset": 3436
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -510,12 +531,12 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 3140,
-                    "endLine": 37,
+                    "startOffset": 3441,
+                    "endLine": 43,
                     "endColumn": 12,
-                    "endOffset": 3290
+                    "endOffset": 3591
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -531,12 +552,12 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 3295,
-                    "endLine": 39,
+                    "startOffset": 3596,
+                    "endLine": 45,
                     "endColumn": 12,
-                    "endOffset": 3461
+                    "endOffset": 3762
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -552,12 +573,12 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 3466,
-                    "endLine": 41,
+                    "startOffset": 3767,
+                    "endLine": 47,
                     "endColumn": 12,
-                    "endOffset": 3610
+                    "endOffset": 3911
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -573,12 +594,12 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 3615,
-                    "endLine": 43,
+                    "startOffset": 3916,
+                    "endLine": 49,
                     "endColumn": 12,
-                    "endOffset": 3775
+                    "endOffset": 4076
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -594,12 +615,12 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 3780,
-                    "endLine": 45,
+                    "startOffset": 4081,
+                    "endLine": 51,
                     "endColumn": 12,
-                    "endOffset": 3932
+                    "endOffset": 4233
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -615,12 +636,12 @@
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 3937,
-                    "endLine": 47,
+                    "startOffset": 4238,
+                    "endLine": 53,
                     "endColumn": 12,
-                    "endOffset": 4083
+                    "endOffset": 4384
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -636,11 +657,11 @@
             },
             {
                 "to": {
-                    "startLine": 48,
+                    "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 4088,
+                    "startOffset": 4389,
                     "endColumn": 118,
-                    "endOffset": 4202
+                    "endOffset": 4503
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -655,12 +676,12 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 4207,
-                    "endLine": 50,
+                    "startOffset": 4508,
+                    "endLine": 56,
                     "endColumn": 12,
-                    "endOffset": 4351
+                    "endOffset": 4652
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -676,12 +697,12 @@
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 4356,
-                    "endLine": 52,
+                    "startOffset": 4657,
+                    "endLine": 58,
                     "endColumn": 12,
-                    "endOffset": 4500
+                    "endOffset": 4801
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -697,11 +718,11 @@
             },
             {
                 "to": {
-                    "startLine": 53,
+                    "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 4505,
+                    "startOffset": 4806,
                     "endColumn": 111,
-                    "endOffset": 4612
+                    "endOffset": 4913
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -716,11 +737,11 @@
             },
             {
                 "to": {
-                    "startLine": 54,
+                    "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 4617,
+                    "startOffset": 4918,
                     "endColumn": 146,
-                    "endOffset": 4759
+                    "endOffset": 5060
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -735,12 +756,12 @@
             },
             {
                 "to": {
-                    "startLine": 55,
+                    "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 4764,
-                    "endLine": 56,
+                    "startOffset": 5065,
+                    "endLine": 62,
                     "endColumn": 12,
-                    "endOffset": 4912
+                    "endOffset": 5213
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -756,12 +777,12 @@
             },
             {
                 "to": {
-                    "startLine": 57,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 4917,
-                    "endLine": 58,
+                    "startOffset": 5218,
+                    "endLine": 64,
                     "endColumn": 12,
-                    "endOffset": 5059
+                    "endOffset": 5360
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -777,11 +798,11 @@
             },
             {
                 "to": {
-                    "startLine": 59,
+                    "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 5064,
+                    "startOffset": 5365,
                     "endColumn": 74,
-                    "endOffset": 5134
+                    "endOffset": 5435
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -796,11 +817,11 @@
             },
             {
                 "to": {
-                    "startLine": 60,
+                    "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 5139,
+                    "startOffset": 5440,
                     "endColumn": 88,
-                    "endOffset": 5223
+                    "endOffset": 5524
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -815,11 +836,11 @@
             },
             {
                 "to": {
-                    "startLine": 61,
+                    "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 5228,
+                    "startOffset": 5529,
                     "endColumn": 86,
-                    "endOffset": 5310
+                    "endOffset": 5611
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -834,11 +855,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 5315,
+                    "startOffset": 5616,
                     "endColumn": 100,
-                    "endOffset": 5411
+                    "endOffset": 5712
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -853,12 +874,12 @@
             },
             {
                 "to": {
-                    "startLine": 63,
+                    "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 5416,
-                    "endLine": 110,
+                    "startOffset": 5717,
+                    "endLine": 116,
                     "endColumn": 12,
-                    "endOffset": 8817
+                    "endOffset": 9118
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -874,12 +895,12 @@
             },
             {
                 "to": {
-                    "startLine": 111,
+                    "startLine": 117,
                     "startColumn": 4,
-                    "startOffset": 8822,
-                    "endLine": 113,
+                    "startOffset": 9123,
+                    "endLine": 119,
                     "endColumn": 12,
-                    "endOffset": 9003
+                    "endOffset": 9304
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -895,12 +916,12 @@
             },
             {
                 "to": {
-                    "startLine": 114,
+                    "startLine": 120,
                     "startColumn": 4,
-                    "startOffset": 9008,
-                    "endLine": 161,
+                    "startOffset": 9309,
+                    "endLine": 167,
                     "endColumn": 12,
-                    "endOffset": 12421
+                    "endOffset": 12722
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -916,12 +937,12 @@
             },
             {
                 "to": {
-                    "startLine": 162,
+                    "startLine": 168,
                     "startColumn": 4,
-                    "startOffset": 12426,
-                    "endLine": 164,
+                    "startOffset": 12727,
+                    "endLine": 170,
                     "endColumn": 12,
-                    "endOffset": 12619
+                    "endOffset": 12920
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -937,12 +958,12 @@
             },
             {
                 "to": {
-                    "startLine": 165,
+                    "startLine": 171,
                     "startColumn": 4,
-                    "startOffset": 12624,
-                    "endLine": 166,
+                    "startOffset": 12925,
+                    "endLine": 172,
                     "endColumn": 12,
-                    "endOffset": 12742
+                    "endOffset": 13043
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -958,12 +979,12 @@
             },
             {
                 "to": {
-                    "startLine": 167,
+                    "startLine": 173,
                     "startColumn": 4,
-                    "startOffset": 12747,
-                    "endLine": 168,
+                    "startOffset": 13048,
+                    "endLine": 174,
                     "endColumn": 12,
-                    "endOffset": 12865
+                    "endOffset": 13166
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -979,12 +1000,12 @@
             },
             {
                 "to": {
-                    "startLine": 169,
+                    "startLine": 175,
                     "startColumn": 4,
-                    "startOffset": 12870,
-                    "endLine": 170,
+                    "startOffset": 13171,
+                    "endLine": 176,
                     "endColumn": 12,
-                    "endOffset": 12978
+                    "endOffset": 13279
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1000,12 +1021,12 @@
             },
             {
                 "to": {
-                    "startLine": 171,
+                    "startLine": 177,
                     "startColumn": 4,
-                    "startOffset": 12983,
-                    "endLine": 173,
+                    "startOffset": 13284,
+                    "endLine": 179,
                     "endColumn": 12,
-                    "endOffset": 13161
+                    "endOffset": 13462
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1021,12 +1042,12 @@
             },
             {
                 "to": {
-                    "startLine": 174,
+                    "startLine": 180,
                     "startColumn": 4,
-                    "startOffset": 13166,
-                    "endLine": 175,
+                    "startOffset": 13467,
+                    "endLine": 181,
                     "endColumn": 12,
-                    "endOffset": 13292
+                    "endOffset": 13593
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1042,11 +1063,11 @@
             },
             {
                 "to": {
-                    "startLine": 176,
+                    "startLine": 182,
                     "startColumn": 4,
-                    "startOffset": 13297,
+                    "startOffset": 13598,
                     "endColumn": 116,
-                    "endOffset": 13409
+                    "endOffset": 13710
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1061,11 +1082,11 @@
             },
             {
                 "to": {
-                    "startLine": 177,
+                    "startLine": 183,
                     "startColumn": 4,
-                    "startOffset": 13414,
+                    "startOffset": 13715,
                     "endColumn": 88,
-                    "endOffset": 13498
+                    "endOffset": 13799
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1080,11 +1101,11 @@
             },
             {
                 "to": {
-                    "startLine": 178,
+                    "startLine": 184,
                     "startColumn": 4,
-                    "startOffset": 13503,
+                    "startOffset": 13804,
                     "endColumn": 110,
-                    "endOffset": 13609
+                    "endOffset": 13910
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1099,11 +1120,11 @@
             },
             {
                 "to": {
-                    "startLine": 179,
+                    "startLine": 185,
                     "startColumn": 4,
-                    "startOffset": 13614,
+                    "startOffset": 13915,
                     "endColumn": 126,
-                    "endOffset": 13736
+                    "endOffset": 14037
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1118,11 +1139,11 @@
             },
             {
                 "to": {
-                    "startLine": 180,
+                    "startLine": 186,
                     "startColumn": 4,
-                    "startOffset": 13741,
+                    "startOffset": 14042,
                     "endColumn": 100,
-                    "endOffset": 13837
+                    "endOffset": 14138
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1137,11 +1158,11 @@
             },
             {
                 "to": {
-                    "startLine": 181,
+                    "startLine": 187,
                     "startColumn": 4,
-                    "startOffset": 13842,
+                    "startOffset": 14143,
                     "endColumn": 94,
-                    "endOffset": 13932
+                    "endOffset": 14233
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1156,11 +1177,11 @@
             },
             {
                 "to": {
-                    "startLine": 182,
+                    "startLine": 188,
                     "startColumn": 4,
-                    "startOffset": 13937,
+                    "startOffset": 14238,
                     "endColumn": 122,
-                    "endOffset": 14055
+                    "endOffset": 14356
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1175,11 +1196,11 @@
             },
             {
                 "to": {
-                    "startLine": 183,
+                    "startLine": 189,
                     "startColumn": 4,
-                    "startOffset": 14060,
+                    "startOffset": 14361,
                     "endColumn": 128,
-                    "endOffset": 14184
+                    "endOffset": 14485
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1194,11 +1215,11 @@
             },
             {
                 "to": {
-                    "startLine": 184,
+                    "startLine": 190,
                     "startColumn": 4,
-                    "startOffset": 14189,
+                    "startOffset": 14490,
                     "endColumn": 116,
-                    "endOffset": 14301
+                    "endOffset": 14602
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1213,11 +1234,11 @@
             },
             {
                 "to": {
-                    "startLine": 185,
+                    "startLine": 191,
                     "startColumn": 4,
-                    "startOffset": 14306,
+                    "startOffset": 14607,
                     "endColumn": 92,
-                    "endOffset": 14394
+                    "endOffset": 14695
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1232,12 +1253,12 @@
             },
             {
                 "to": {
-                    "startLine": 186,
+                    "startLine": 192,
                     "startColumn": 4,
-                    "startOffset": 14399,
-                    "endLine": 187,
+                    "startOffset": 14700,
+                    "endLine": 193,
                     "endColumn": 12,
-                    "endOffset": 14529
+                    "endOffset": 14830
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1253,12 +1274,12 @@
             },
             {
                 "to": {
-                    "startLine": 188,
+                    "startLine": 194,
                     "startColumn": 4,
-                    "startOffset": 14534,
-                    "endLine": 189,
+                    "startOffset": 14835,
+                    "endLine": 195,
                     "endColumn": 12,
-                    "endOffset": 14672
+                    "endOffset": 14973
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1274,12 +1295,12 @@
             },
             {
                 "to": {
-                    "startLine": 190,
+                    "startLine": 196,
                     "startColumn": 4,
-                    "startOffset": 14677,
-                    "endLine": 191,
+                    "startOffset": 14978,
+                    "endLine": 197,
                     "endColumn": 12,
-                    "endOffset": 14807
+                    "endOffset": 15108
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1295,12 +1316,12 @@
             },
             {
                 "to": {
-                    "startLine": 192,
+                    "startLine": 198,
                     "startColumn": 4,
-                    "startOffset": 14812,
-                    "endLine": 193,
+                    "startOffset": 15113,
+                    "endLine": 199,
                     "endColumn": 12,
-                    "endOffset": 14926
+                    "endOffset": 15227
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1316,12 +1337,12 @@
             },
             {
                 "to": {
-                    "startLine": 194,
+                    "startLine": 200,
                     "startColumn": 4,
-                    "startOffset": 14931,
-                    "endLine": 197,
+                    "startOffset": 15232,
+                    "endLine": 203,
                     "endColumn": 12,
-                    "endOffset": 15127
+                    "endOffset": 15428
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1337,12 +1358,12 @@
             },
             {
                 "to": {
-                    "startLine": 198,
+                    "startLine": 204,
                     "startColumn": 4,
-                    "startOffset": 15132,
-                    "endLine": 199,
+                    "startOffset": 15433,
+                    "endLine": 205,
                     "endColumn": 12,
-                    "endOffset": 15246
+                    "endOffset": 15547
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1358,11 +1379,11 @@
             },
             {
                 "to": {
-                    "startLine": 200,
+                    "startLine": 206,
                     "startColumn": 4,
-                    "startOffset": 15251,
+                    "startOffset": 15552,
                     "endColumn": 92,
-                    "endOffset": 15339
+                    "endOffset": 15640
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1377,11 +1398,11 @@
             },
             {
                 "to": {
-                    "startLine": 201,
+                    "startLine": 207,
                     "startColumn": 4,
-                    "startOffset": 15344,
+                    "startOffset": 15645,
                     "endColumn": 110,
-                    "endOffset": 15450
+                    "endOffset": 15751
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1396,11 +1417,11 @@
             },
             {
                 "to": {
-                    "startLine": 202,
+                    "startLine": 208,
                     "startColumn": 4,
-                    "startOffset": 15455,
+                    "startOffset": 15756,
                     "endColumn": 55,
-                    "endOffset": 15506
+                    "endOffset": 15807
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1415,12 +1436,12 @@
             },
             {
                 "to": {
-                    "startLine": 203,
+                    "startLine": 209,
                     "startColumn": 4,
-                    "startOffset": 15511,
-                    "endLine": 204,
+                    "startOffset": 15812,
+                    "endLine": 210,
                     "endColumn": 12,
-                    "endOffset": 15613
+                    "endOffset": 15914
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1436,12 +1457,12 @@
             },
             {
                 "to": {
-                    "startLine": 205,
+                    "startLine": 211,
                     "startColumn": 4,
-                    "startOffset": 15618,
-                    "endLine": 208,
+                    "startOffset": 15919,
+                    "endLine": 214,
                     "endColumn": 12,
-                    "endOffset": 15808
+                    "endOffset": 16109
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1457,12 +1478,12 @@
             },
             {
                 "to": {
-                    "startLine": 209,
+                    "startLine": 215,
                     "startColumn": 4,
-                    "startOffset": 15813,
-                    "endLine": 210,
+                    "startOffset": 16114,
+                    "endLine": 216,
                     "endColumn": 12,
-                    "endOffset": 15919
+                    "endOffset": 16220
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1478,12 +1499,12 @@
             },
             {
                 "to": {
-                    "startLine": 211,
+                    "startLine": 217,
                     "startColumn": 4,
-                    "startOffset": 15924,
-                    "endLine": 212,
+                    "startOffset": 16225,
+                    "endLine": 218,
                     "endColumn": 12,
-                    "endOffset": 16052
+                    "endOffset": 16353
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1499,11 +1520,11 @@
             },
             {
                 "to": {
-                    "startLine": 213,
+                    "startLine": 219,
                     "startColumn": 4,
-                    "startOffset": 16057,
+                    "startOffset": 16358,
                     "endColumn": 94,
-                    "endOffset": 16147
+                    "endOffset": 16448
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1518,11 +1539,11 @@
             },
             {
                 "to": {
-                    "startLine": 214,
+                    "startLine": 220,
                     "startColumn": 4,
-                    "startOffset": 16152,
+                    "startOffset": 16453,
                     "endColumn": 90,
-                    "endOffset": 16238
+                    "endOffset": 16539
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1537,11 +1558,11 @@
             },
             {
                 "to": {
-                    "startLine": 215,
+                    "startLine": 221,
                     "startColumn": 4,
-                    "startOffset": 16243,
+                    "startOffset": 16544,
                     "endColumn": 112,
-                    "endOffset": 16351
+                    "endOffset": 16652
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1556,11 +1577,11 @@
             },
             {
                 "to": {
-                    "startLine": 216,
+                    "startLine": 222,
                     "startColumn": 4,
-                    "startOffset": 16356,
+                    "startOffset": 16657,
                     "endColumn": 116,
-                    "endOffset": 16468
+                    "endOffset": 16769
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1575,12 +1596,12 @@
             },
             {
                 "to": {
-                    "startLine": 217,
+                    "startLine": 223,
                     "startColumn": 4,
-                    "startOffset": 16473,
-                    "endLine": 218,
+                    "startOffset": 16774,
+                    "endLine": 224,
                     "endColumn": 12,
-                    "endOffset": 16607
+                    "endOffset": 16908
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1596,12 +1617,12 @@
             },
             {
                 "to": {
-                    "startLine": 219,
+                    "startLine": 225,
                     "startColumn": 4,
-                    "startOffset": 16612,
-                    "endLine": 225,
+                    "startOffset": 16913,
+                    "endLine": 231,
                     "endColumn": 12,
-                    "endOffset": 16960
+                    "endOffset": 17261
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1617,12 +1638,12 @@
             },
             {
                 "to": {
-                    "startLine": 226,
+                    "startLine": 232,
                     "startColumn": 4,
-                    "startOffset": 16965,
-                    "endLine": 232,
+                    "startOffset": 17266,
+                    "endLine": 238,
                     "endColumn": 12,
-                    "endOffset": 17325
+                    "endOffset": 17626
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1638,12 +1659,12 @@
             },
             {
                 "to": {
-                    "startLine": 233,
+                    "startLine": 239,
                     "startColumn": 4,
-                    "startOffset": 17330,
-                    "endLine": 242,
+                    "startOffset": 17631,
+                    "endLine": 248,
                     "endColumn": 12,
-                    "endOffset": 18005
+                    "endOffset": 18306
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1659,11 +1680,11 @@
             },
             {
                 "to": {
-                    "startLine": 243,
+                    "startLine": 249,
                     "startColumn": 4,
-                    "startOffset": 18010,
+                    "startOffset": 18311,
                     "endColumn": 56,
-                    "endOffset": 18062
+                    "endOffset": 18363
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1678,11 +1699,11 @@
             },
             {
                 "to": {
-                    "startLine": 244,
+                    "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 18067,
+                    "startOffset": 18368,
                     "endColumn": 57,
-                    "endOffset": 18120
+                    "endOffset": 18421
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml",
@@ -1697,11 +1718,11 @@
             },
             {
                 "to": {
-                    "startLine": 245,
+                    "startLine": 251,
                     "startColumn": 4,
-                    "startOffset": 18125,
+                    "startOffset": 18426,
                     "endColumn": 121,
-                    "endOffset": 18242
+                    "endOffset": 18543
                 },
                 "from": {
                     "file": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/res/values-v21/appinvite_styles.xml",

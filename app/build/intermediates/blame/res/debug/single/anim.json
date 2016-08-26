@@ -1,11 +1,19 @@
 [
     {
-        "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_slide_out_top.xml"
+        "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/anim/slide_in_right.xml",
+        "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/res/anim/slide_in_right.xml"
     },
     {
         "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
         "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/anim/slide_out_right.xml",
+        "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/res/anim/slide_out_right.xml"
     },
     {
         "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
@@ -28,6 +36,10 @@
         "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_slide_out_bottom.xml"
     },
     {
+        "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/anim/animation_enter.xml",
+        "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/res/anim/animation_enter.xml"
+    },
+    {
         "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
         "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_fade_in.xml"
     },
@@ -38,5 +50,9 @@
     {
         "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
         "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/anim/animation_leave.xml",
+        "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/res/anim/animation_leave.xml"
     }
 ]

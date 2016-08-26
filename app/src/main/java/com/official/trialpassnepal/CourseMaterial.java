@@ -52,4 +52,5 @@ public class CourseMaterial extends BaseActivity {
             }
         });
     }
+
 }
