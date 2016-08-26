@@ -1,5 +1,7 @@
 package com.official.trialpassnepal;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -14,10 +16,13 @@ import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.official.trialpassnepal.db.DbCrud;
+import com.official.trialpassnepal.service.SyncReceiver;
+import com.official.trialpassnepal.utils.CommonMethods;
 import com.official.trialpassnepal.utils.Opener;
 import com.official.trialpassnepal.view.TextViewTypeFaced;
 
 import java.util.Arrays;
+import java.util.Calendar;
 
 public class LandingActivity extends BaseActivity {
 
@@ -67,11 +72,18 @@ public class LandingActivity extends BaseActivity {
             @Override
             public void onSuccess(LoginResult loginResult) {
                 // App code
-                System.out.println("token: "+loginResult.getAccessToken());
+                System.out.println("token: " + loginResult.getAccessToken());
                 loginButton.setVisibility(View.GONE);
                 finish();
-//                syncData();
-                opener.SelectUserInterest();
+                open.CourseMaterial();
+                Intent i = new Intent(LandingActivity.this, SyncReceiver.class);
+                i.putExtra("notification_id", CommonMethods.NOTIFICATION_ID);
+                AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+                PendingIntent pendingIntent = PendingIntent.getBroadcast(LandingActivity.this, CommonMethods.NOTIFICATION_ID, i, PendingIntent.FLAG_UPDATE_CURRENT);
+                Calendar calendar = Calendar.getInstance();
+                calendar.set(Calendar.SECOND, 10);
+//                System.out.println("Rabin is testing: Remainder@ " + calendar.getTime() + " -- " + calendar.getTimeInMillis() + " -- " + System.currentTimeMillis());
+                alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), 1000 * 10, pendingIntent);
             }
 
             @Override
@@ -91,7 +103,7 @@ public class LandingActivity extends BaseActivity {
     private View.OnClickListener clickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            switch (v.getId()){
+            switch (v.getId()) {
                 case R.id.login_button:
                     LoginManager.getInstance().logInWithReadPermissions(LandingActivity.this, Arrays.asList("public_profile"));
                     break;

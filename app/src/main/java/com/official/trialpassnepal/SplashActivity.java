@@ -36,8 +36,6 @@ public class SplashActivity extends AppCompatActivity {
         rocketAnimation.start();
         onAnimationFinish(rocketAnimation);
 
-        Intent intentService = new Intent(SplashActivity.this, UpdatePullService.class);
-        intentService.setData(Uri.parse("tset"));
     }
 
     private void onAnimationFinish(AnimationDrawable anim) {
@@ -50,13 +48,14 @@ public class SplashActivity extends AppCompatActivity {
                     onAnimationFinish(a);
                 } else {
                     if (!CommonMethods.isLoggedIn()) {
-                        Intent i = new Intent(SplashActivity.this, LandingActivity.class);
-                        startActivity(i);
+                        if (!(prefs.getStringValues(CommonDef.USER_INTEREST)).isEmpty()) {
+                            Intent i = new Intent(SplashActivity.this, SelectUserInterest.class);
+                            startActivity(i);
+                        } else {
+                            new Opener(SplashActivity.this).LandingActivity();
+                        }
                     } else {
-                        if (!(prefs.getStringValues(CommonDef.USER_INTEREST)).isEmpty())
-                            new Opener(SplashActivity.this).CourseMaterial();
-                        else
-                            new Opener(SplashActivity.this).SelectUserInterest();
+                        new Opener(SplashActivity.this).CourseMaterial();
                     }
                     finish();
                 }

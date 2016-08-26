@@ -4,27 +4,27 @@
     api-level="22"
     density="tvdpi"
     format="7"
-    timestamp="1472144635574875000"
+    timestamp="1472229771071387000"
     token="2608216864261312080" >
 
     <task
         name="javac"
-        duration="9408" />
+        duration="3670" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="2949" />
+        duration="1008" />
     <task
         name="verifier"
-        duration="496" />
+        duration="401" />
 
     <artifact
         location="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="1472144635574875000" >
+    <build timestamp="1472229771071387000" >
         <artifact
             location="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />

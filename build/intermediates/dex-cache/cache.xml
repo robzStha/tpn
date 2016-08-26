@@ -33,7 +33,7 @@
         jar="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.1"
-        sha1="208afd71626c506b421dd704f6ee4a777db81b41">
+        sha1="b918e9f892d08a7736155ca023b4f1adc9d55ccf">
         <dex dex="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f5b5680db8d2d3b89fa4ee0244803fb2a3f54fbf/classes.dex" />
     </item>
     <item
@@ -72,18 +72,18 @@
         <dex dex="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-8.4.0_1490b71903f928349713eebd869902192585f214/classes.dex" />
     </item>
     <item
-        jar="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/libs/YouTubeAndroidPlayerApi.jar"
-        jumboMode="true"
-        revision="23.0.1"
-        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
-        <dex dex="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_c39d8089b99451be3945a35152b6d6bb9e136d79/classes.dex" />
-    </item>
-    <item
         jar="/Users/Slowhand Jr./.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
         jumboMode="true"
         revision="23.0.1"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
         <dex dex="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_838251f28951cbf67c597354e9f8e2cc334defd0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_c39d8089b99451be3945a35152b6d6bb9e136d79/classes.dex" />
     </item>
     <item
         jar="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
@@ -201,7 +201,7 @@
         jar="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="23.0.1"
-        sha1="38946244ee6ebe1c7823e428e181c25a94c9973c">
+        sha1="7c1344ccc18ddd95de1ee2f3edbad162795f3251">
         <dex dex="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_48f9b9f2023d6ed5de32cd5c7b021fe8cd64004b/classes.dex" />
     </item>
     <item
@@ -247,18 +247,18 @@
         <dex dex="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_dcd444c2135dec122709043ab52790c788e5ac06/classes.dex" />
     </item>
     <item
-        jar="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.1"
-        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
-        <dex dex="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.4.0_531af2ad78c03139944fba0c5527365d9eff4038/classes.dex" />
-    </item>
-    <item
         jar="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.1"
         sha1="551e78f21acf69ebfb489c0e79647824c838013e">
         <dex dex="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-8.4.0_8f7f875ee9df280177bb33382ef5bd761e16bfe1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.4.0_531af2ad78c03139944fba0c5527365d9eff4038/classes.dex" />
     </item>
     <item
         jar="/Users/Slowhand Jr./.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"

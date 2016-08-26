@@ -66,18 +66,19 @@ public class SelectUserInterest extends BaseActivity implements View.OnClickList
                 pref.setKeyValues(CommonDef.USER_INTEREST, CommonDef.BOTH);
                 break;
         }
-        syncData();
-        Intent i = new Intent(SelectUserInterest.this, SyncReceiver.class);
-        i.putExtra("notification_id", CommonMethods.NOTIFICATION_ID);
-
-        AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-        PendingIntent pendingIntent = PendingIntent.getBroadcast(SelectUserInterest.this, CommonMethods.NOTIFICATION_ID, i, PendingIntent.FLAG_UPDATE_CURRENT);
-
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(Calendar.SECOND, 10);
-        System.out.println("Rabin is testing: Remainder@ " + calendar.getTime() + " -- " + calendar.getTimeInMillis() + " -- " + System.currentTimeMillis());
-//        if (calendar.getTimeInMillis() > System.currentTimeMillis()) {
-        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),1000*10, pendingIntent);
+        Intent i = new Intent(SelectUserInterest.this, LandingActivity.class);
+        startActivity(i);
+//        syncData();
+//        Intent i = new Intent(SelectUserInterest.this, SyncReceiver.class);
+//        i.putExtra("notification_id", CommonMethods.NOTIFICATION_ID);
+//
+//        AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+//        PendingIntent pendingIntent = PendingIntent.getBroadcast(SelectUserInterest.this, CommonMethods.NOTIFICATION_ID, i, PendingIntent.FLAG_UPDATE_CURRENT);
+//
+//        Calendar calendar = Calendar.getInstance();
+//        calendar.set(Calendar.SECOND, 10);
+//        System.out.println("Rabin is testing: Remainder@ " + calendar.getTime() + " -- " + calendar.getTimeInMillis() + " -- " + System.currentTimeMillis());
+//        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), 1000*10, pendingIntent);
     }
 }
 
