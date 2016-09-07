@@ -68,6 +68,7 @@ public class SelectUserInterest extends BaseActivity implements View.OnClickList
         }
         Intent i = new Intent(SelectUserInterest.this, LandingActivity.class);
         startActivity(i);
+        finish();
 //        syncData();
 //        Intent i = new Intent(SelectUserInterest.this, SyncReceiver.class);
 //        i.putExtra("notification_id", CommonMethods.NOTIFICATION_ID);

@@ -84,10 +84,6 @@
         "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/drawable/profile5.jpg",
-        "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/res/drawable/profile5.jpg"
-    },
-    {
         "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
         "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
@@ -106,10 +102,6 @@
     {
         "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/drawable/bg_btn_green.xml",
         "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/res/drawable/bg_btn_green.xml"
-    },
-    {
-        "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/drawable/profile3.jpg",
-        "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/res/drawable/profile3.jpg"
     },
     {
         "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
@@ -192,10 +184,6 @@
         "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
     },
     {
-        "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/drawable/profile6.jpg",
-        "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/res/drawable/profile6.jpg"
-    },
-    {
         "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
         "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/messenger_button_blue_bg_selector.xml"
     },
@@ -240,16 +228,8 @@
         "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/drawable/profile4.jpg",
-        "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/res/drawable/profile4.jpg"
-    },
-    {
         "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
         "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_button_login_silver_background.xml"
-    },
-    {
-        "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/drawable/profile2.jpg",
-        "source": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/src/main/res/drawable/profile2.jpg"
     },
     {
         "merged": "/Users/Slowhand Jr./Desktop/ANDROID-STUFFS/TrialPassNepal/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",

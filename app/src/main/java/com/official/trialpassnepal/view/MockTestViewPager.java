@@ -1,10 +1,14 @@
 
 package com.official.trialpassnepal.view;
 
+import android.app.ProgressDialog;
 import android.net.Uri;
+import android.os.AsyncTask;
+import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.os.AsyncTaskCompat;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.view.MotionEvent;
@@ -44,18 +48,9 @@ public class MockTestViewPager extends BaseActivity implements MockTestFragment.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         viewPager = (ViewPager) findViewById(R.id.vpPager);
-        alQuestionObjectTemp = new DbQuestionAnswer(getApplicationContext()).getQuestions("0");// gets obj quesiton
-        adapterViewPager = new MyPagerAdapter(getSupportFragmentManager());
-        viewPager.setAdapter(adapterViewPager);
-        viewPager.setOnTouchListener(new View.OnTouchListener() {
-
-            public boolean onTouch(View arg0, MotionEvent arg1) {
-                return true;
-            }
-        });
-        viewPager.setOffscreenPageLimit(20);
-
+        new GetQuestions().execute();
     }
 
     @Override
@@ -91,6 +86,39 @@ public class MockTestViewPager extends BaseActivity implements MockTestFragment.
             return "Page " + position;
         }
 
+    }
+
+    private class GetQuestions extends AsyncTask<Void, Void, Void> {
+//        ProgressDialog progressDialog = new ProgressDialog(MockTestViewPager.this);
+//
+//        @Override
+//        protected void onPreExecute() {
+//            super.onPreExecute();
+//            progressDialog.setIndeterminate(true);
+//            progressDialog.setMessage("Loading..");
+//            progressDialog.show();
+//        }
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            alQuestionObjectTemp = new DbQuestionAnswer(getApplicationContext()).getQuestions("0");// gets obj quesiton
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+            adapterViewPager = new MyPagerAdapter(getSupportFragmentManager());
+            viewPager.setAdapter(adapterViewPager);
+            viewPager.setOnTouchListener(new View.OnTouchListener() {
+
+                public boolean onTouch(View arg0, MotionEvent arg1) {
+                    return true;
+                }
+            });
+            viewPager.setOffscreenPageLimit(20);
+//            progressDialog.dismiss();
+        }
     }
 }
 

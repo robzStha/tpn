@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/bg_fb_login"/>
+            android:src="@drawable/ic_bg"/>
 
         <RelativeLayout
             android:layout_width="match_parent"

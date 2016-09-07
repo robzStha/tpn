@@ -8,10 +8,8 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.ArrayRes;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.NavUtils;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -26,7 +24,6 @@ import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -38,14 +35,8 @@ import com.official.trialpassnepal.adapters.NavDrawerListAdapter;
 import com.official.trialpassnepal.db.DbCategories;
 import com.official.trialpassnepal.db.DbDrivingCenters;
 import com.official.trialpassnepal.db.DbQuestionAnswer;
-import com.official.trialpassnepal.objects.Category;
 import com.official.trialpassnepal.objects.Data;
-import com.official.trialpassnepal.objects.DrivingCenter;
 import com.official.trialpassnepal.objects.NavDrawerItems;
-import com.official.trialpassnepal.objects.Question;
-import com.official.trialpassnepal.objects.QuestionImage;
-import com.official.trialpassnepal.objects.QuestionOption;
-import com.official.trialpassnepal.objects.SubAnswer;
 import com.official.trialpassnepal.objects.SyncData;
 import com.official.trialpassnepal.retrofitConfig.RetrofitSingleton;
 import com.official.trialpassnepal.utils.CircleTransform;
@@ -70,7 +61,8 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
 
     private ArrayList<NavDrawerItems> navDrawerItems;
     private static final int MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE = 111;
-    TextView progressBar;
+    TextView tv_loading;
+    static int selectedPage=0;
 
     private String[] navMenuTitles;
     private NavDrawerListAdapter adapter;
@@ -121,7 +113,7 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
         setContentView(R.layout.activity_base);
         actionBar = getSupportActionBar();
         actionBar.hide();
-        progressBar = (TextView) findViewById(R.id.progress_bar);
+        tv_loading = (TextView) findViewById(R.id.progress_bar);
         connectionMngr = new ConnectionMngr(BaseActivity.this);
         open = new Opener(this);
         prefs = new SharedPreference(this);
@@ -270,58 +262,72 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
     protected void onResume() {
         super.onResume();
         frameLayout.setVisibility(View.VISIBLE);
-        progressBar.setVisibility(View.GONE);
+        tv_loading.setVisibility(View.GONE);
     }
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         frameLayout.setVisibility(View.INVISIBLE);
-        if (position == 0) { // Pathya kram samagri = Course material
-            progressBar.setVisibility(View.VISIBLE);
+        if(selectedPage==position){
+            frameLayout.setVisibility(View.VISIBLE);
+        }
+        if (position == 0 && selectedPage!=0) { // Pathya kram samagri = Course material
+            selectedPage=0;
+            tv_loading.setVisibility(View.VISIBLE);
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     open.CourseMaterial();
                 }
-            }, 100);
-        } else if (position == 1) {
-            progressBar.setVisibility(View.VISIBLE);
+            }, 150);
+        } else if (position == 1 && selectedPage!=1) {
+            selectedPage=1;
+            tv_loading.setVisibility(View.VISIBLE);
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     open.QuestionNAnswer();
                 }
-            }, 200);
-        } else if (position == 2) {
-            progressBar.setVisibility(View.VISIBLE);
+            }, 150);
+        } else if (position == 2 && selectedPage!=2) {
+            selectedPage=2;
+            tv_loading.setVisibility(View.VISIBLE);
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     open.NearByDrivingCenters();
                 }
             }, 500);
-        } else if (position == 3) {
+        } else if (position == 3 && selectedPage!=3) {
+            selectedPage=3;
+            tv_loading.setVisibility(View.VISIBLE);
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     open.SMS();
                 }
-            }, 100);
-        } else if (position == 4) {
+            }, 150);
+        } else if (position == 4 && selectedPage!=4) {
+            selectedPage=4;
+            tv_loading.setVisibility(View.VISIBLE);
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     open.Remainder();
                 }
-            }, 100);
-        } else if (position == 5) {
+            }, 150);
+        } else if (position == 5 && selectedPage!=5) {
+            selectedPage = 5;
+            tv_loading.setVisibility(View.VISIBLE);
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     open.UsefulTips();
                 }
-            }, 100);
-        } else if (position == 6) {
+            }, 150);
+        } else if (position == 6 && selectedPage!=6) {
+            selectedPage = 6;
+            tv_loading.setVisibility(View.VISIBLE);
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
@@ -331,9 +337,10 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
                     browserIntent.setDataAndType(data, "application/pdf");
                     startActivity(browserIntent);
                 }
-            }, 50);
+            }, 150);
 
         } else if (position == 7) {
+            tv_loading.setVisibility(View.VISIBLE);
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
@@ -342,6 +349,7 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
             }, 300);
         } else if (position == 8) {
             // trial video
+            tv_loading.setVisibility(View.VISIBLE);
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
@@ -353,7 +361,7 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
                 @Override
                 public void run() {
                     LoginManager.getInstance().logOut();
-                    prefs.setKeyValues(CommonDef.USER_INTEREST, "");
+//                    prefs.setKeyValues(CommonDef.USER_INTEREST, "");
                     finish();
                     open.LandingActivity();
                 }
@@ -478,7 +486,6 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
                     System.out.println("Error::: " + t.getMessage() + "---" + t.getLocalizedMessage());
                     finish();
                     open.CourseMaterial();
-
                 }
             });
         } else
@@ -523,6 +530,6 @@ public abstract class BaseActivity extends AppCompatActivity implements AdapterV
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        progressBar.setVisibility(View.GONE);
+        tv_loading.setVisibility(View.GONE);
     }
 }

@@ -90,6 +90,7 @@ public class DbReminders {
             reminderObjects.add(categoryObject);
             cursor.moveToNext();
         }
+        cursor.close();
         close();
         return reminderObjects;
 

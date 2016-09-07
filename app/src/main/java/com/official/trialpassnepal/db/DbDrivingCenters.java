@@ -60,6 +60,7 @@ public class DbDrivingCenters {
             alDrivingCenterObj.add(drivingCenterObject);
             cursor.moveToNext();
         }
+        cursor.close();
         close();
         return alDrivingCenterObj;
 

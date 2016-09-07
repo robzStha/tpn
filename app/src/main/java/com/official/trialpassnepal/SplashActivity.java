@@ -48,7 +48,7 @@ public class SplashActivity extends AppCompatActivity {
                     onAnimationFinish(a);
                 } else {
                     if (!CommonMethods.isLoggedIn()) {
-                        if (!(prefs.getStringValues(CommonDef.USER_INTEREST)).isEmpty()) {
+                        if (prefs.getStringValues(CommonDef.USER_INTEREST).isEmpty()) {
                             Intent i = new Intent(SplashActivity.this, SelectUserInterest.class);
                             startActivity(i);
                         } else {

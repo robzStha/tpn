@@ -66,6 +66,7 @@ public class DbQuestionAnswer {
             subQstnAnsObjects.add(subQstnAnsObject);
             cursor.moveToNext();
         }
+        cursor.close();
         return subQstnAnsObjects;
     }
 
@@ -108,6 +109,7 @@ public class DbQuestionAnswer {
             alAnswerObj.add(answerObject);
             cursor.moveToNext();
         }
+        cursor.close();
         close();
         return alAnswerObj;
     }
@@ -125,6 +127,7 @@ public class DbQuestionAnswer {
             alQuestionObj.add(questionObj);
             cursor.moveToNext();
         }
+        cursor.close();
         close();
         return alQuestionObj;
 

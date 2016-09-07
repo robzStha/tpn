@@ -45,32 +45,17 @@ public class WebViewActivity extends BaseActivity {
 
         WebSettings settings = webview.getSettings();
         settings.setJavaScriptEnabled(true);
-//        settings.setPluginState(WebSettings.PluginState.ON);
-
-//        webview.getSettings().setPluginsEnabled(true);
         webview.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
-        progressBar = ProgressDialog.show(WebViewActivity.this, "TPN", "Loading...");
-
         webview.setWebViewClient(new WebViewClient() {
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-//                Log.i(TAG, "Processing webview url click...");
                 view.loadUrl(url);
                 return true;
             }
 
             public void onPageFinished(WebView view, String url) {
-//                Log.i(TAG, "Finished loading URL: " +url);
-                if (progressBar.isShowing()) {
-                    progressBar.dismiss();
-                }
-//                if(url.equals(mUrl)){
-//                    btnBack.setVisibility(View.GONE);
-//                }else{
-//                    btnBack.setVisibility(View.VISIBLE);
-//                }
             }
 
             public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {

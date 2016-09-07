@@ -84,6 +84,7 @@ public class DbCategories {
             alCatObj.add(categoryObject);
             cursor.moveToNext();
         }
+        cursor.close();
         close();
         return alCatObj;
 

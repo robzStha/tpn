@@ -1,6 +1,7 @@
 package com.official.trialpassnepal.utils;
 
 import android.app.ActivityManager;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.res.Resources;
 import android.text.format.DateFormat;
@@ -82,6 +83,11 @@ public class CommonMethods {
         String temp = prefs.getStringValues(CommonDef.SharedPrefKeys.LAST_UPDATE_TIMESTAMP);
         temp = temp.equals("") ? "0" : temp;
         final String lastUpdateTimeStamp = temp;
+        final ProgressDialog progressDialog = new ProgressDialog(context);
+//        if(temp.equals("0")){
+//            progressDialog.setMessage("Synchronizing with server...");
+//            progressDialog.show();
+//        }
         Call<SyncData> call = RetrofitSingleton.getApiService().getSyncData(lastUpdateTimeStamp); // 0 for first time sync
         call.enqueue(new Callback<SyncData>() {
             @Override
@@ -102,13 +108,18 @@ public class CommonMethods {
                     dbQuestionAnswer.truncate();
                     dbDrivingCenters.truncate();
                     setDatabase(data, context);
+//                    if(progressDialog.isShowing()){
+//                        progressDialog.hide();
+//                    }
                 }
             }
 
             @Override
             public void onFailure(Call<SyncData> call, Throwable t) {
                 System.out.println("Error::: " + t.getMessage() + "---" + t.getLocalizedMessage());
-
+//                if(progressDialog.isShowing()){
+//                    progressDialog.hide();
+//                }
             }
         });
     }
