@@ -226,7 +226,7 @@ public class LandingActivity extends BaseActivity {
                 connection.setDoOutput(true);
                 connection.setDoInput(true);
 
-                String urlParameters = "user_name=" + prefs.getStringValues("user_name") + ", user_email=" + prefs.getStringValues("user_email") + ", privateKey=" + "krujtpn" + ", user_interest=" + prefs.getStringValues(CommonDef.USER_INTEREST);
+                String urlParameters = "user_name=" + prefs.getStringValues("user_name") + "&user_email=" + prefs.getStringValues("user_email") + "&privateKey=" + "krujtpn" + "&user_interest=" + prefs.getStringValues(CommonDef.USER_INTEREST);
                 DataOutputStream
                         dStream = new DataOutputStream(connection.getOutputStream());
                 dStream.writeBytes(urlParameters); //Writes out the string to the underlying output stream as a sequence of bytes<br />
